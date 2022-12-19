@@ -1,0 +1,69 @@
+.settings-container {
+    width: 100%;
+    display: flex !important;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.settings-title {
+    width: fit-content;
+    font-size: 16px;
+    color: #101828;
+    font-weight: 500;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.settings-name-contain {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.settings-upload {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around !important;
+    align-items: flex-start;
+    gap: 2rem;
+}
+.settings-upload-icon {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+.settings-upload-header-text {
+    font-size: 13px;
+    color: #667085;
+    font-weight: 400;
+    display: flex;
+    gap: 5px;
+    margin: auto;
+}
+.settings-upload-header-text span{
+    font-size: 13px;
+    color: #175CD3;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.settings-upload-footer-text {
+    font-size: 12px;
+    font-weight: 400;
+    color: #667085;
+    margin: auto;
+}
+.isCard {
+    width: 70%;
+}
+@media (max-width: 1024px) {
+    .isCard {
+        width: 95%;
+    }
+}

@@ -1,0 +1,21 @@
+
+.headerWithBack-contain {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerWithBack {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.headerWithBack-item {
+    display: flex;
+    gap: 8px;
+    color: #98A2B3;
+    font-size: 14px;
+    cursor: pointer;
+}

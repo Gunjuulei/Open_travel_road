@@ -1,0 +1,10 @@
+
+.header-contain {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px 0 60px;
+}
+
+

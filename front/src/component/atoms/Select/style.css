@@ -1,0 +1,8 @@
+.contain-select {
+    width: 100%;
+    height: fit-content;
+}
+.ant-select {
+    max-height: 35px !important;
+    color: #666;
+}

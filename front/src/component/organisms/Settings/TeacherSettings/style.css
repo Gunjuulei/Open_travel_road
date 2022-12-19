@@ -1,0 +1,76 @@
+.settings-container {
+    width: 100%;
+    display: flex !important;
+}
+
+.settings-title {
+    width: 100%;
+    font-size: 16px;
+    color: #101828;
+    font-weight: 500;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ant-form-item {
+    width: 100%;
+}
+.ant-row {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.ant-col:nth-child(2) {
+    width: 100%;
+}
+
+input {
+    border-radius: 8px !important;
+}
+input::placeholder {
+    font-size: 13px !important;
+}
+.settings-name-contain {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.settings-upload {
+    width: 100%;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: flex-start;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+.settings-upload-icon {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+.settings-upload-header-text {
+    font-size: 14px;
+    color: #667085;
+    font-weight: 400;
+    display: flex;
+    gap: 5px;
+    margin: auto;
+}
+.settings-upload-header-text span {
+    font-size: 14px;
+    color: #175cd3;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.settings-upload-footer-text {
+    font-size: 12px;
+    font-weight: 400;
+    color: #667085;
+    margin: auto;
+}

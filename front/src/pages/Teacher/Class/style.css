@@ -1,0 +1,79 @@
+.teacher-class-card-contain {
+    width: 90%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.teacher-class-card {
+    width: 100%;
+}
+@media (max-width: 1200px) {
+    .teacher-class-card {
+        padding: 14px;
+    }
+    
+}
+
+.teacher-class-card-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clearPadding {
+    padding: 0 !important;
+}
+
+/* Table css */
+.teacher-class-table-contain {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.addModalContian {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.addStu {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    background-color: #007bff !important;
+    border: 1px solid #d0d5dd !important;
+    color: white !important;
+}
+.addStu svg {
+    color: white !important;
+}
+
+.teacher-class-card-first-item {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.anticon {
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0;
+}
+.anticon:active {
+    color: #007bff;
+}
+.anticon:hover {
+    color: #007bff;
+}
+
+.popover-contain {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.popover-contain p {
+    cursor: pointer;
+}

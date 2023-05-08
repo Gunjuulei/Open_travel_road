@@ -1,12 +1,38 @@
-# ERPsystem
-Энэхүү системийн ажлын хүрээнд сургуулийн үйл ажиллагааг бүрэн програмчлаагүй бөгөөд цаашид модулиудыг өргөтгөж илүү олон онцлог давуу талуудыг нэмж хөгжүүлэлт хийх бүрэн боломжтой.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Уг систем нь MERN stack ийн кодны хэлүүдээр бичигдсэн бөгөөд дараах зааврын дагуу ажлуулах боломжтой.
+## Getting Started
 
-Заавар:
+First, run the development server:
 
-1. Программыг ажлуулхын тулх эхлээд Backend ийг terminal ашиглан React ийн сангаас хэрэгтэй сангын дуудхын тулд npm install гэж суулгана.
-2. React санг суулгаж дуудсаны дараа npm start гэж backend ийг асаана (Уг системийг асаахын тулд MongoDB data server ийг холбох хэрэгтэй болно. Тиймээс та mongoDB atlas суулган host connection хийх ёстой)
-3. Frontend ийг дараа нь асаана. Дээрх аргатай адилхан react ийн сангаас ашиглагдсан plugin уудыг дуудаж суулгана.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-4. Мөн адил npm start хийснээр таны front бас асна. 
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

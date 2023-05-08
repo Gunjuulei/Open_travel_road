@@ -1,9 +1,0 @@
-.container-empty {
-    width: 100% !important;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #555;
-    font-size: 14px;
-}

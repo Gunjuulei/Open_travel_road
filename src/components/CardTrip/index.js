@@ -9,10 +9,10 @@ import Link from "next/link";
 export default function CardTrip({src, text, map, days,members, price, link, ...props}) {
     return (
             <Link href={link} >
-                <div className={`flex flex-col rounded-[24px] max-w-[300px] h-[400px] shadow-lg bg-white overflow-hidden border-gray-100 border`} {...props}>
+                <div className={`flex flex-col rounded-[24px] w-[300px] max-w-[300px] h-[400px] shadow-lg bg-white overflow-hidden border-gray-100 border`} {...props}>
                     <Image className={'w-full h-[250px] object-cover'} src={src} alt={''} />
                     <div className={'flex flex-col gap-2 items-start bg-white p-3'}>
-                        <h3 className={'text-xl font-bold'}>
+                        <h3 className={'text-xl font-bold max-h-[30px] overflow-y-hidden'}>
                             {text}
                         </h3>
                         <div className={'text-[#FF9F47] text-base flex gap-1 '}>

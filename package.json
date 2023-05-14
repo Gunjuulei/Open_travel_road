@@ -13,14 +13,16 @@
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.4",
     "next": "13.3.4",
+    "next-translate": "^2.0.5",
     "postcss": "8.4.23",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "swiper": "^9.2.4",
     "tailwindcss": "3.3.2",
     "yarn": "^1.22.19"
   },
   "devDependencies": {
+    "next-translate-plugin": "^2.0.5",
     "sass": "^1.62.1"
   }
 }

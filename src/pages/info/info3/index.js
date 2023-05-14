@@ -1,8 +1,9 @@
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Navbar from "@/components/Navbar";
-import bg from "../../../../public/assets/info/infoBg.png";
+import bg from "../../../../public/assets/info/infoBg.jpg";
 import info3 from "../../../../public/assets/info/info3.png";
+import Footer from "@/components/Footer";
 
 export default function Info1() {
     return (
@@ -73,6 +74,7 @@ export default function Info1() {
 
             {/*    </div>*/}
             {/*</div>*/}
+            <Footer />
         </div>
     );
 }

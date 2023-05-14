@@ -1,19 +1,9 @@
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Navbar from "@/components/Navbar";
-import bg from "../../../../public/assets/info/infoBg.png";
+import bg from "../../../../public/assets/info/infoBg.jpg";
 import info5 from "../../../../public/assets/info/info5.png";
-import {useRouter} from "next/router";
-import {trips} from "@/utils";
-import moon from "../../../../public/assets/moon.svg"
-import sun from "../../../../public/assets/sun.svg"
-import map from "../../../../public/assets/map-black.svg"
-import user from "../../../../public/assets/user-black.svg"
-import dollar from "../../../../public/assets/dollar-black.svg"
-import home from "../../../../public/assets/home.svg"
-import send from "../../../../public/assets/send.svg"
-import CardTrip from "@/components/CardTrip";
-import cardDef from "../../../../public/assets/landing/tripCardDef.png";
+import Footer from "@/components/Footer";
 
 export default function Info5() {
     return (
@@ -58,6 +48,7 @@ export default function Info5() {
 
             {/*    </div>*/}
             {/*</div>*/}
+            <Footer />
         </div>
     );
 }

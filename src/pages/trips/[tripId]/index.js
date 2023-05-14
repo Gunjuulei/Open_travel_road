@@ -4,7 +4,8 @@ import Navbar from "@/components/Navbar";
 import bg from "../../../../public/assets/landing/grid5.png";
 import mapBig from "../../../../public/assets/landing/mapBig.png";
 import {useRouter} from "next/router";
-import {trips} from "@/utils";
+import {tripsEn} from "@/utils";
+import {tripsGr} from "@/utils/german";
 import moon from "../../../../public/assets/moon.svg"
 import sun from "../../../../public/assets/sun.svg"
 import map from "../../../../public/assets/map-black.svg"
@@ -14,10 +15,16 @@ import home from "../../../../public/assets/home.svg"
 import send from "../../../../public/assets/send.svg"
 import CardTrip from "@/components/CardTrip";
 import cardDef from "../../../../public/assets/landing/tripCardDef.png";
+import Footer from "@/components/Footer";
+import useTranslation from "next-translate/useTranslation";
 
 export default function TripSingle() {
+    const { locale } = useRouter();
+    const isEng = locale === 'en';
     const router = useRouter().query;
+    const trips = isEng ? tripsEn : tripsGr;
     const tripItem = trips.find((item => item.id === router.tripId))
+    const { t } = useTranslation('common');
     console.log(router, tripItem)
     return (
         <div className={'w-full'}>
@@ -26,7 +33,7 @@ export default function TripSingle() {
                 <Image className={'w-full object-cover h-[400px]'} src={bg} alt={''} />
             </div>
             <div className={`flex w-full max-w-[100vw] relative flex z-0 flex-col`}>
-                <section className={'w-full py-[80px] gap-24 flex flex-row items-start justify-center text-black relative z-1'}>
+                <section className={'w-full py-[80px] gap-24 flex flex-col lg:flex-row items-center lg:items-start lg:justify-center text-black relative z-1'}>
                     <div className={'max-w-[520px] flex flex-col gap-4 items-start'}>
                         <h2 className={'font-semibold text-5xl'}>
                             {tripItem?.name}
@@ -103,24 +110,35 @@ export default function TripSingle() {
                         </div>
                     </div>
                     <div className={'max-w-[560px] flex flex-col gap-4 items-start'}>
-                        <Image src={mapBig} alt={''} />
+                        <Image src={tripItem?.mainImg} alt={''} />
+                        <div className={'w-full flex flex-col gap-4 mt-8'}>
+                            {
+                                tripItem?.images.map((img, idx)=> {
+                                    return (
+                                        <Image key={idx} className={'w-full object-cover'} src={img} alt={''} />
+                                        )
+
+                                })
+                            }
+                        </div>
                     </div>
                 </section>
             </div>
 
-            <div className={'mt-[200px] max-w-[1200px] mx-auto flex flex-col gap-10 my-[150px] justify-between'}>
+            <div className={'mt-[200px] max-w-[1200px] mx-6 lg:mx-auto flex flex-col gap-10 my-[150px] justify-between'}>
                 <h3  className={'font-bold text-5xl text-[#FF9F47]'}>
-                    Trips
+                    {t('trips')}
                 </h3>
                 <div className={'w-full flex flex-row gap-6 flex-wrap '}>
                     {
                         trips?.map((item, idx)=> {
                             return (
-                                <CardTrip link={`${item.id}`} text={item?.name} key={idx} src={cardDef} map={`${item.nights}-${item.days}`} members={item?.group} price={item?.price} /> )
+                                <CardTrip link={`${item.id}`} text={item?.name} key={idx} src={item?.mainImg} map={`${item.nights}-${item.days}`} members={item?.group} price={item?.price} /> )
                         })
                     }
                 </div>
             </div>
+            <Footer />
         </div>
     );
 }

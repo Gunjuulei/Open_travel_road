@@ -9,7 +9,10 @@ import info4 from "../../../public/assets/info/info4.png";
 import info5 from "../../../public/assets/info/info5.png";
 
 import InfoItem from "@/components/InfoItem";
+import Footer from "@/components/Footer";
+import useTranslation from "next-translate/useTranslation";
 export default function Info() {
+    const { t } = useTranslation('common');
     return (
         <>
             <Navbar />
@@ -29,8 +32,10 @@ export default function Info() {
                     <InfoItem link={'info/info3'} src={info3} title={"VISA für die Einreise in die Mongolei"} desc={"Reiseversicherung: Sie können einfach und flexibel online kaufen, erweitern und Ansprüche geltend machen..."}/>
                     <InfoItem link={'info/info4'} src={info4} title={"Tour – SIM - Karte"} desc={"Mit der Prepaid-Tour-SIM-Karte können Sie bis zu 90% Ihrer Roaming-Kosten sparen..."}/>
                     <InfoItem link={'info/info5'} src={info5} title={"Strom, Netzstecker und Mobilfunkwelle in der Mongolei"} desc={"Die Mongolei arbeitet mit einer Versorgungsspannung von 230 V und 50 Hz. Strom ist fast stabil..."}/>
+                    <InfoItem link={'info/info6'} src={info1} title={t('info6.title')} desc={t('info6.title')}/>
                 </section>
             </div>
+            <Footer />
         </>
     );
 }

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Navbar from "@/components/Navbar";
-import bg from "../../../../public/assets/info/infoBg.png";
+import bg from "../../../../public/assets/info/infoBg.jpg";
 import info4 from "../../../../public/assets/info/info4.png";
 import {useRouter} from "next/router";
 import {trips} from "@/utils";
@@ -14,6 +14,7 @@ import home from "../../../../public/assets/home.svg"
 import send from "../../../../public/assets/send.svg"
 import CardTrip from "@/components/CardTrip";
 import cardDef from "../../../../public/assets/landing/tripCardDef.png";
+import Footer from "@/components/Footer";
 
 export default function Info4() {
     return (
@@ -71,6 +72,7 @@ export default function Info4() {
 
             {/*    </div>*/}
             {/*</div>*/}
+            <Footer />
         </div>
     );
 }

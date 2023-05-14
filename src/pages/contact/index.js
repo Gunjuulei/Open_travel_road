@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import useTranslation from 'next-translate/useTranslation';
 import Navbar from "@/components/Navbar";
 import contact from "../../../public/assets/landing/contact.png";
 import phone from "../../../public/assets/phone.svg";
@@ -8,6 +9,7 @@ import mail from "../../../public/assets/mail.svg";
 import iconEdit from "../../../public/assets/iconEdit.png";
 import Button from "@/components/Button";
 import Link from "next/link";
+import Footer from "@/components/Footer";
 export default function ContactUs() {
     return (
         <>
@@ -28,15 +30,15 @@ export default function ContactUs() {
                         <div className={'flex flex-row gap-6 font-semibold items-center'}>
                             <div className={'flex flex-row gap-2 items-center'}>
                                 <Image src={mail} alt={""} />
-                                <p>Mail: example@example.com</p>
+                                <p>Mail: oprotravel@gmail.com</p>
                             </div>
                             <div className={'flex flex-row gap-2  items-center'}>
                                 <Image src={phone} alt={""} />
-                                <p>Phone: +976 9999-9999</p>
+                                <p>Phone: +976 95075579, +976 99299986</p>
                             </div>
                         </div>
                         <p>
-                            This Contact Us page is for a marketing agency that works directly with businesses. Since it knows its audience, Brandaffair encourages visitors to "have a talk" one-on-one rather than providing a one-way communication channel via support resources.                            <br />
+                            This Contact Us page is for a marketing agency that works directly with businesses. Since it knows its audience, Brandaffair encourages visitors to &quot;have a talk&quot; one-on-one rather than providing a one-way communication channel via support resources.                            <br />
                         </p>
                         <Link href={'https://docs.google.com/forms/d/e/1FAIpQLSeRSZ-_D-hQO-IbqBGe9-fLAFoz-69a1xDEOhn0wdjKjBePIg/viewform'} target="_blank">
                             <Button style={{padding: '20px 144px'}} className={'bg-[#FF9F47] text-2xl rounded-[16px] px-4 py-1 text-white font-semibold self-start'}>
@@ -47,6 +49,7 @@ export default function ContactUs() {
                     </div>
                 </section>
             </div>
+            <Footer />
         </>
     );
 }

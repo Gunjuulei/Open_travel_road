@@ -214,7 +214,7 @@ export const tripsEn = [
   {
     id: "trip7",
     name: "Gobi Reise",
-    mainImg: trip7_Main,
+    mainImg: trip7_main,
     desc: "Die Gobi ist die größte Wüstenregion Asiens und die fünftgrößte der Welt. Eine Reihe von städtischen Gebieten entlang der Seidenstraße befinden sich in Gobi. ",
     desc2:
       "Es wird gesagt, dass Gobi aufgrund geringer Niederschläge entstanden ist, weil die majestätische Himalaya-Bergkette die Regenwolken blockiert, die in diese Region kommen. Die Gobi ist in Bezug auf Natur, Klima und Topografie äußerst vielfältig und weist eine reiche seltene Flora und Fauna auf. Insbesondere ist es berühmt für den Fund seltener Fossilien antiker Dinosaurier in der Region Umnogov.",

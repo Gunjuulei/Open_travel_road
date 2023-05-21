@@ -2,42 +2,58 @@ import trip1Main from "/public/assets/trips/trip1Main.jpg";
 import trip1_2 from "/public/assets/trips/trip1-2.jpg";
 import trip1_3 from "/public/assets/trips/trip1-3.jpg";
 import trip1_4 from "/public/assets/trips/trip1-4.jpg";
-import trip2_Main from "/public/assets/trips/2.jpg";
-import trip2_1 from "/public/assets/trips/3.jpg";
-import trip2_2 from "/public/assets/trips/4.jpg";
-import trip2_3 from "/public/assets/trips/5.jpg";
-import trip3_Main from "/public/assets/trips/6.jpg";
-import trip3_2 from "/public/assets/trips/7.jpg";
-import trip3_3 from "/public/assets/trips/8.jpg";
-import trip3_4 from "/public/assets/trips/9.jpg";
-import trip4_Main from "/public/assets/trips/10.jpg";
-import trip4_2 from "/public/assets/trips/11.jpg";
-import trip4_3 from "/public/assets/trips/12.jpg";
-import trip4_4 from "/public/assets/trips/13.jpg";
-import trip5_Main from "/public/assets/trips/14.jpg";
-import trip5_2 from "/public/assets/trips/15.jpg";
-import trip5_3 from "/public/assets/trips/16.jpg";
-import trip5_4 from "/public/assets/trips/17.jpg";
-import trip6_Main from "/public/assets/trips/18.jpg";
-import trip6_2 from "/public/assets/trips/19.jpg";
-import trip6_3 from "/public/assets/trips/20.jpg";
-import trip6_4 from "/public/assets/trips/21.jpg";
-import trip7_main from "/public/assets/trips/22.jpg";
-import trip7_2 from "/public/assets/trips/23.jpg";
-import trip7_3 from "/public/assets/trips/24.jpg";
-import trip7_4 from "/public/assets/trips/25.jpg";
-import trip8_Main from "/public/assets/trips/26.jpg";
-import trip8_2 from "/public/assets/trips/27.jpg";
-import trip8_3 from "/public/assets/trips/28.jpg";
-import trip8_4 from "/public/assets/trips/29.jpg";
-import trip9_Main from "/public/assets/trips/30.jpg";
-import trip9_2 from "/public/assets/trips/31.jpg";
-import trip9_3 from "/public/assets/trips/32.jpg";
-import trip9_4 from "/public/assets/trips/33.jpg";
-import trip10_Main from "/public/assets/trips/34.jpg";
-import trip10_2 from "/public/assets/trips/35.jpg";
-import trip10_3 from "/public/assets/trips/36.jpg";
-import trip10_4 from "/public/assets/trips/37.jpg";
+import trip2_Main from "/public/assets/trips/trip1Main.jpg";
+import trip2_1 from "/public/assets/trips/201.png";
+import trip2_2 from "/public/assets/trips/202.png";
+import trip2_3 from "/public/assets/trips/203.png";
+import trip2_4 from "/public/assets/trips/204.png";
+import trip2_5 from "/public/assets/trips/205.png";
+import trip3_Main from "/public/assets/trips/301.jpg";
+import trip3_2 from "/public/assets/trips/302.jpg";
+import trip3_3 from "/public/assets/trips/303.jpg";
+import trip3_4 from "/public/assets/trips/304.jpg";
+import trip3_5 from "/public/assets/trips/305.jpg";
+import trip3_6 from "/public/assets/trips/306.jpg";
+import trip3_7 from "/public/assets/trips/307.jpg";
+import trip4_Main from "/public/assets/trips/401.jpg";
+import trip4_2 from "/public/assets/trips/402.jpg";
+import trip4_3 from "/public/assets/trips/403.jpg";
+import trip4_4 from "/public/assets/trips/404.jpg";
+import trip4_5 from "/public/assets/trips/405.jpg";
+import trip4_6 from "/public/assets/trips/406.jpg";
+import trip4_7 from "/public/assets/trips/407.jpg";
+import trip4_8 from "/public/assets/trips/408.jpg";
+import trip5_Main from "/public/assets/trips/501.jpg";
+import trip5_2 from "/public/assets/trips/502.jpg";
+import trip5_3 from "/public/assets/trips/503.jpg";
+import trip5_4 from "/public/assets/trips/504.jpg";
+import trip6_Main from "/public/assets/trips/601.jpg";
+import trip6_2 from "/public/assets/trips/602.jpg";
+import trip6_3 from "/public/assets/trips/603.jpg";
+import trip6_4 from "/public/assets/trips/604.jpg";
+import trip7_main from "/public/assets/trips/701.jpg";
+import trip7_2 from "/public/assets/trips/702.jpg";
+import trip7_3 from "/public/assets/trips/703.jpg";
+import trip7_4 from "/public/assets/trips/704.jpg";
+import trip8_Main from "/public/assets/trips/801.jpg";
+import trip8_2 from "/public/assets/trips/802.jpg";
+import trip8_3 from "/public/assets/trips/803.jpg";
+import trip8_4 from "/public/assets/trips/804.jpg";
+import trip8_5 from "/public/assets/trips/805.jpg";
+import trip8_6 from "/public/assets/trips/806.jpg";
+import trip8_7 from "/public/assets/trips/807.jpg";
+import trip8_8 from "/public/assets/trips/808.jpg";
+import trip9_Main from "/public/assets/trips/901.jpg";
+import trip9_2 from "/public/assets/trips/902.jpg";
+import trip9_4 from "/public/assets/trips/904.jpg";
+import trip9_5 from "/public/assets/trips/905.jpg";
+import trip9_6 from "/public/assets/trips/906.jpg";
+import trip9_7 from "/public/assets/trips/907.jpg";
+import trip10_Main from "/public/assets/trips/1001.jpg";
+import trip10_2 from "/public/assets/trips/1002.jpg";
+import trip10_3 from "/public/assets/trips/1003.jpg";
+import trip10_4 from "/public/assets/trips/1004.jpg";
+import trip10_5 from "/public/assets/trips/1005.jpg";
 
 export const tripsEn = [
   {
@@ -67,7 +83,7 @@ export const tripsEn = [
       "Day 10: Return to Ulaanbaatar in a car. You will visit the cashmere outlet store and other shops selling souvenirs and Mongolian brands. On this evening you will enjoy a farewell dinner in a nice restaurant. (Spending a night in a hotel) ",
       "Day 11: Airport. Flight.",
     ],
-    images: [trip1_2, trip1_3, trip1_4],
+    images: [trip1_2, trip1_3, trip2_2, trip1_4],
   },
   {
     id: "trip2",
@@ -96,7 +112,7 @@ export const tripsEn = [
       "Day 10: Return to Ulaanbaatar in a car. You will visit the cashmere outlet store and other shops selling souvenirs and Mongolian brands. On this evening you will see a concert of a folklore ensemble and enjoy a farewell dinner in a nice restaurant. (Spending a night in a hotel) ",
       "Day 11: Airport. Flight.",
     ],
-    images: [trip2_1, trip2_2, trip2_3],
+    images: [trip2_1, trip2_2, trip2_4, trip2_3, trip2_5],
   },
   {
     id: "trip3",
@@ -127,7 +143,7 @@ export const tripsEn = [
       "Day 11: Return to Ulaanbaatar. After lunch you will visit the cashmere outlet store and other souvenir shops. In the evening we will see a concert of a folklore ensemble and enjoy a farewell dinner in a nice restaurant afterwards. You will spend a night in a hotel.",
       "Day 12: Airport. Flight.",
     ],
-    images: [trip3_2, trip3_3, trip3_4],
+    images: [trip3_2, trip3_3, trip3_4, trip3_5, trip3_6, trip3_7],
   },
   {
     id: "trip4",
@@ -157,7 +173,7 @@ export const tripsEn = [
       "Day 11: Return to Ulaanbaatar. After lunch, you will visit the cashmere outlet store and other souvenir shops. In the evening we will see a concert of a folklore ensemble and enjoy a farewell dinner. You will spend a night in a hotel.",
       "Day 12: Airport. Flight.",
     ],
-    images: [trip4_2, trip4_3, trip4_4],
+    images: [trip4_2, trip4_3, trip4_4, trip4_5, trip4_6, trip4_7, trip4_8],
   },
   {
     id: "trip5",
@@ -271,7 +287,7 @@ export const tripsEn = [
       "Day 18: Return to Ulaanbaatar. After lunch you will visit the cashmere outlet store and other souvenir shops. In the evening we will see a concert of a folklore ensemble and enjoy a farewell dinner in a nice restaurant afterwards. You will spend a night in a hotel.",
       "Day 19: We will drop you off at the airport or anywhere else within the city",
     ],
-    images: [trip8_2, trip8_3, trip8_4],
+    images: [trip8_2, trip8_3, trip8_4, trip8_5, trip8_6 ,trip8_7, trip8_8],
   },
   {
     id: "trip9",
@@ -307,7 +323,7 @@ export const tripsEn = [
       "When visiting the Aglag Buteel monastery, it is not necessary to bring incense sticks, alcohol, milk, and rice for rituals. This is to prevent accumulation of waste and unpleasant odors around the monastery. The most important thing for the visitors is to breathe fresh air, relax your mind, and get good energy and spirits from the environment of the temples, gods, and buried rocks.",
       "After visiting the monastery and museum, we will take you back to your hotel. That will be the end of our 1-day tour.",
     ],
-    images: [trip9_2, trip9_3, trip9_4],
+    images: [trip9_2,trip9_4,trip9_5,trip9_6, trip9_7],
   },
   {
     id: "trip10",
@@ -358,6 +374,6 @@ export const tripsEn = [
 
       "16.30: Go to Ulaanbaatar city. We will take you to your hotel and we will end our one-day trip where you learned about the lifestyle and traditions of the nomadic Mongolian people.",
     ],
-    images: [trip10_2, trip10_3, trip10_4],
+    images: [trip10_2, trip10_3, trip10_4,trip10_5],
   },
 ];

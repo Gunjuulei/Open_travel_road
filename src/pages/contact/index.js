@@ -10,9 +10,14 @@ import iconEdit from "../../../public/assets/iconEdit.png";
 import Button from "@/components/Button";
 import Link from "next/link";
 import Footer from "@/components/Footer";
+import Head from "next/head";
 export default function ContactUs() {
+    const { t } = useTranslation('common');
     return (
         <>
+            <Head>
+                <title>{t('contact')}</title>
+            </Head>
             <Navbar />
             <div className={`w-full h-[80px] relative bg-black  flex z-0 flex-col`}></div>
             <div className={`flex w-full max-w-[100vw] relative flex z-0 flex-col`}>
@@ -40,7 +45,7 @@ export default function ContactUs() {
                         <p>
                             This Contact Us page is for a marketing agency that works directly with businesses. Since it knows its audience, Brandaffair encourages visitors to &quot;have a talk&quot; one-on-one rather than providing a one-way communication channel via support resources.                            <br />
                         </p>
-                        <Link href={'https://docs.google.com/forms/d/e/1FAIpQLSeRSZ-_D-hQO-IbqBGe9-fLAFoz-69a1xDEOhn0wdjKjBePIg/viewform'} target="_blank">
+                        <Link href={'https://docs.google.com/forms/d/e/1FAIpQLSenxHRBsHc7RQxVXkmyICsFcUyfElR1MAtiPN8hbRfhuzYGPA/viewform'} target="_blank">
                             <Button style={{padding: '20px 144px'}} className={'bg-[#FF9F47] text-2xl rounded-[16px] px-4 py-1 text-white font-semibold self-start'}>
                                 <Image className={'w-[30px]'} src={iconEdit} alt={""} />  Go FROM
                             </Button>

@@ -1,8 +1,11 @@
-import trip1Main from "/public/assets/trips/trip1Main.jpg";
-import trip1_2 from "/public/assets/trips/trip1-2.jpg";
-import trip1_3 from "/public/assets/trips/trip1-3.jpg";
-import trip1_4 from "/public/assets/trips/trip1-4.jpg";
-import trip2_Main from "/public/assets/trips/trip1Main.jpg";
+import trip1Main from "/public/assets/trips/101.jpg";
+import trip1_2 from "/public/assets/trips/102.jpg";
+import trip1_3 from "/public/assets/trips/103.jpg";
+import trip1_4 from "/public/assets/trips/104.jpg";
+import trip1_5 from "/public/assets/trips/105.jpg";
+import trip1_6 from "/public/assets/trips/106.jpg";
+import trip1_7 from "/public/assets/trips/107.jpg";
+import trip2_Main from "/public/assets/trips/101.jpg";
 import trip2_1 from "/public/assets/trips/201.png";
 import trip2_2 from "/public/assets/trips/202.png";
 import trip2_3 from "/public/assets/trips/203.png";
@@ -106,7 +109,7 @@ export const tripsGr = [
       "Wenn Sie alleine oder in eine Gruppe reisen wollen, können wir die Reise nach Ihren/Euren Wunsch gestaltten. Die Preise können sich je nach Anzahl der Personen ändern.",
       "Mit vorherige Absprache kann man die Reise verlängern oder verkürzen.",
     ],
-    images: [trip1_2, trip1_3, trip1_4],
+    images: [trip1_2, trip1_3, trip1_4, trip1_5, trip1_6, trip1_7],
   },
   {
     id: "trip2",

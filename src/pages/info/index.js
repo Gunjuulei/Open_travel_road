@@ -11,10 +11,14 @@ import info5 from "../../../public/assets/info/info5.png";
 import InfoItem from "@/components/InfoItem";
 import Footer from "@/components/Footer";
 import useTranslation from "next-translate/useTranslation";
+import Head from "next/head";
 export default function Info() {
     const { t } = useTranslation('common');
     return (
         <>
+            <Head>
+                <title>Info</title>
+            </Head>
             <Navbar />
             <div className={`w-full h-[80px] relative bg-black  flex z-0 flex-col`}></div>
             <div className={`w-full h-[400px] justify-center px-[200px] relative bg-[#FF9F47] flex z-0 flex-col gap-12`}>

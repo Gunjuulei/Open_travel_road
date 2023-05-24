@@ -36,10 +36,14 @@ import kuwait from "../../../public/assets/countries/kuwait.png";
 import Footer from "@/components/Footer";
 import AboutUsItem from "@/components/AboutUsItem";
 import useTranslation from "next-translate/useTranslation";
+import Head from "next/head";
 export default function AboutUs() {
     const { t } = useTranslation('common');
     return (
         <>
+            <Head>
+                <title>{t('aboutUs')}</title>
+            </Head>
             <Navbar />
             <div className={`w-full h-[80px] relative bg-black  flex z-0 flex-col`}></div>
             <div className={`w-full h-[600px] justify-center px-[200px] relative bg-[#FF9F47] flex z-0 flex-col gap-12`}>

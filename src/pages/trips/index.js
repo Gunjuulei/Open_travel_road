@@ -11,6 +11,7 @@ import { tripsGr} from "@/utils/german";
 import CardTrip from "@/components/CardTrip";
 import Footer from "@/components/Footer";
 import useTranslation from "next-translate/useTranslation";
+import Head from "next/head";
 export default function Trips() {
     const { locale } = useRouter();
     const isEng = locale === 'en';
@@ -18,6 +19,9 @@ export default function Trips() {
     const trips = isEng ? tripsEn : tripsGr;
   return (
       <>
+          <Head>
+              <title>{t('trips')}</title>
+          </Head>
         <Navbar />
         <div className={`w-full h-[80px] relative bg-black  flex z-0 flex-col`}></div>
         <div className={`flex w-full max-w-[100vw] relative z-0 flex-col items-center`}>

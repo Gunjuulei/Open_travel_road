@@ -108,6 +108,72 @@ export default function TripSingle() {
                             }
 
                         </div>
+                        <div className={'flex flex-col gap-6 mt-10 text-black'} style={{fontWeight: 500}}>
+
+                            <p>
+                                {t('specialArr.title')}:
+                            </p>
+                            <ul className={'font-normal text-[14px] px-2'}>
+                                <li>
+                                    - {t('specialArr.arr1')}
+                                </li>
+                                <li>
+                                    - {t('specialArr.arr2')}
+                                </li>
+                                <li>
+                                    - {t('specialArr.arr3')}
+                                </li>
+                            </ul>
+
+                            <p>
+                                {t('priceTrip.title')}:
+                            </p>
+                            <ul className={'font-normal text-[14px] px-2'}>
+                                <li>
+                                    - {t('priceTrip.item1')};
+                                </li>
+                                <li>
+                                    - {t('priceTrip.item2')};
+                                </li>
+                                <li>
+                                    - {t('priceTrip.item3')};
+                                </li>
+                                <li>
+                                    - {t('priceTrip.item4')};
+                                </li>
+                                <li>
+                                    - {t('priceTrip.item5')};
+                                </li>
+                                <li>
+                                    - {t('priceTrip.item6')};
+                                </li>
+                                <li>
+                                    - {t('priceTrip.item7')};
+                                </li>
+                                <li>
+                                    - {t('priceTrip.item8')};
+                                </li>
+                            </ul>
+
+                            <p>
+                                {t('priceTrip2.title')}:
+                            </p>
+                            <ul className={'font-normal text-[14px] px-2'}>
+                                <li>
+                                    - {t('priceTrip2.item1')};
+                                </li>
+                                <li>
+                                    - {t('priceTrip2.item2')};
+                                </li>
+                                <li>
+                                    - {t('priceTrip2.item3')};
+                                </li>
+                                <li>
+                                    - {t('priceTrip2.item4')};
+                                </li>
+
+                            </ul>
+                        </div>
                     </div>
                     <div className={'max-w-[560px] flex flex-col gap-4 items-start'}>
                         <Image src={tripItem?.mainImg} alt={''} />

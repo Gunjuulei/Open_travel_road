@@ -8,10 +8,14 @@ import pope1 from "../../../public/assets/blogs/pope1.png";
 import InfoItem from "@/components/InfoItem";
 import Footer from "@/components/Footer";
 import useTranslation from "next-translate/useTranslation";
+import Head from "next/head";
 export default function Blogs() {
     const { t } = useTranslation('common');
     return (
         <>
+            <Head>
+                <title>{t('blogs')}</title>
+            </Head>
             <Navbar />
             <div className={`w-full h-[80px] relative bg-black  flex z-0 flex-col`}></div>
             <div className={`w-full h-[400px] justify-center px-[200px] relative bg-[#FF9F47] flex z-0 flex-col gap-12`}>

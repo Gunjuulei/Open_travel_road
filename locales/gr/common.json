@@ -14,5 +14,29 @@
   },
   "info6": {
     "title": "Liste  der Мongolischen Bootschaft in der Welt"
+  },
+  "specialArr": {
+    "title": "Sondervereinbarungen",
+    "arr1": "Wenn Sie alleine reisen möchten, können wir auf Ihren Wunsch spezielle Arrangements treffen.",
+    "arr2": "Die Preise können je nach Anzahl der Personen variieren.",
+    "arr3": "Bei ausreichender Vorankündigung können wir die Dauer der Reise flexibel ändern."
+  },
+  "priceTrip": {
+    "title": "Im Reisepreis sind folgende Kosten enthalten",
+    "item1": "Übernachtung in einem 2-3-Sterne-Hotel, Zimmer für zwei Gäste",
+    "item2": "Übernachtungen in einem mongolischen Ger",
+    "item3": "Transport während der gesamten Reise, einschließlich Fahrergebühr",
+    "item4": "Honorar des Reiseleiters",
+    "item5": "Essen während der Reise",
+    "item6": "Gebühren für das Reiten auf Pferden und Kamelen",
+    "item7": "Eintritt in Nationalparks und Museen",
+    "item8": "Stadtführung, Folklorekonzert"
+  },
+  "priceTrip2": {
+    "title": "Im Reisepreis sind folgende Kosten nicht enthalten",
+    "item1": "Reiseversicherung",
+    "item2": "Transport in die/aus der Mongolei",
+    "item3": "Getränke",
+    "item4": "Kosten, oben nicht erwähnt"
   }
 }

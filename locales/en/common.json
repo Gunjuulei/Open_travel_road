@@ -14,5 +14,29 @@
   },
   "info6": {
     "title": "List of Mongolian embassies in the world"
+  },
+  "specialArr": {
+    "title": "Special arrangements",
+    "arr1": "If you wish to travel on your own, we can make special arrangements upon your request.",
+    "arr2": "Prices may vary depending on the number of people.",
+    "arr3": "Given sufficient prior notice, we can flexibly change the duration of the trip."
+  },
+  "priceTrip": {
+    "title": "The price for a trip includes the following costs",
+    "item1": "Overnight stay in a 2-3-star hotel, room for two guests;",
+    "item2": "Overnights stay in a Mongolian gher",
+    "item3": "Transportation during the entire trip, including driver’s fee",
+    "item4": "Tour Guide’s fee",
+    "item5": "Food during the trip",
+    "item6": "Horse and camel riding fees",
+    "item7": "Entrance to National parks and museums",
+    "item8": "City tour, folklore concert"
+  },
+  "priceTrip2": {
+    "title": "The price for a trip does not include the following costs",
+    "item1": "Travel insurance",
+    "item2": "Transportation to/from Mongolia",
+    "item3": "Drinks",
+    "item4": "Costs, not mentioned above"
   }
 }

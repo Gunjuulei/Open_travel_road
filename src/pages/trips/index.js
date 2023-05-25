@@ -32,7 +32,7 @@ export default function Trips() {
               {
                   trips?.map((item, idx)=> {
                       return (
-                          <CardTrip link={`/trips/${item.id}`} text={item?.name} key={idx} src={item?.mainImg} map={`${item.nights}-${item.days}`} members={item?.group} price={item?.price} /> )
+                          <CardTrip link={`/trips/${item.id}`} text={item?.name} key={idx} src={item?.mainImg} map={`${item.nights || 0}-${item.days || 0}`} members={item?.group} price={item?.price} /> )
                   })
               }
           </section>

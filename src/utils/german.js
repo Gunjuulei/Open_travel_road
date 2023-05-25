@@ -66,7 +66,7 @@ export const tripsGr = [
     desc2:
       "Es ist auch eine Reise, die etwas Besonderes ist, als nur zu einem Ort zu fahren, an dem Sie Wildtiere beobachten können. Ein Paradies, in dem Sie jeden Tag an einer neuen Stelle angeln können. ",
     nights: "10 Nächte",
-    days: "10 Tage",
+    days: "11 Tage",
     meeting: "20.06.2023, 25.07.2023, 15.08.2023, 10.09.2023",
     group: "2-12",
     price: "2200$ - 1400$",

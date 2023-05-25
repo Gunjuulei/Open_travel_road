@@ -32,7 +32,7 @@ export default function ContactUs() {
                         <h2 className={'text-6xl font-bold'}>
                             WE’RE HERE
                         </h2>
-                        <div className={'flex flex-row gap-6 font-semibold items-center'}>
+                        <div className={'flex flex-col gap-6 font-semibold items-start'}>
                             <div className={'flex flex-row gap-2 items-center'}>
                                 <Image src={mail} alt={""} />
                                 <p>Mail: oprotravel@gmail.com</p>
@@ -40,6 +40,10 @@ export default function ContactUs() {
                             <div className={'flex flex-row gap-2  items-center'}>
                                 <Image src={phone} alt={""} />
                                 <p>Phone: +976 95075579, +976 99299986</p>
+                            </div>
+                            <div className={'flex flex-row gap-2  items-center'}>
+                                <Image src={phone} alt={""} />
+                                <p>WhatsApp: +976 95075579, +976 99299986</p>
                             </div>
                         </div>
                         <p>

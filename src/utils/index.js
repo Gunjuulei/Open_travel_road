@@ -65,13 +65,13 @@ export const tripsEn = [
     desc: "The national protected area of Baga Khentii valley, part of the Khentii Mountain ranges, is a home to a beautiful lake Khagiin Khar (Black) lake. ",
     desc2:
       "To reach the place, you will travel on horseback through the wild nature and experience the beauty of the wilderness up close, passing through magnificent mountains, rivers and forests. This trip is more special than just driving to a wildlife destination. This trip will bring you to a paradise where you can fish a new spot every day and enjoy the pristine nature.",
-    nights: "10 Nächte",
-    days: "11 Tage",
+    nights: "10 night",
+    days: "11 day",
     meeting: "20.06.2023, 25.07.2023, 15.08.2023, 10.09.2023",
     group: "2-12",
     price: "2200$ - 1400$",
     hotel: "Zelte, Hotel",
-    transport: "Mini van, Mongolische Pferde",
+    transport: "Mini van, Mongolian horse",
     paragraph: [
       "Day 1: The tourists will be picked up from the airport and driven to their hotel. After a brief rest, we will go out and explore the city of Ulaanbaatar. We will see the Genghis Square and the center of Buddhist religion, the Gandan monastery. We will have lunch and go to the newly opened Chinggis Khaan National Museum (https://chinggismuseum.com/). In the evening we will see a concert of a folklore ensemble and have a dinner afterwards. (Spending a night in a hotel)    ",
       "Day 2: After a breakfast, we will drive outside the city. Our horsemen and the horses will be waiting for us at Terelj National Park. You will have some time to get to know the men and the horses, then we will ride the horses and our horse-riding adventure will begin! The first night in the wilderness will be at the banks of the Tuul river. (Sleeping in a tent)   ",
@@ -119,7 +119,7 @@ export const tripsEn = [
     group: "2-12",
     price: "2500$ - 1300$",
     hotel: "Zelte, Ger camp, Hotel",
-    transport: "Mini van, Mongolische Pferde, Kamel",
+    transport: "Mini van, Mongolian horse, Camel",
     paragraph: [
       "Day 1: The tourists will be picked up from the airport and driven to their hotel. After a brief rest, we will go out and explore the city of Ulaanbaatar. We will have lunch and you will have an opportunity to exchange your currency into Mongolian tugriks. You will visit the State Department Store and see the Genghis Square, visit the center of Buddhist religion, the Gandan monastery. You will also visit the newly opened Chinggis Khaan National Museum, and have a dinner aftewards. The evening will be at your disposal, so you can have a good rest before the start of the trip. (Spending a night in a hotel)    ",
       "Day 2: After a breakfast at the hotel, we will drive outside the city for about an hour. Our horsemen and the horses will be waiting for us near the Gorkhi-Terelj National Park. You will have some time to get to know the men and the horses, then we will ride the horses and our horse-riding adventure will begin. The first night in the wilderness will be at the banks of the Tuul river. (Sleeping in a tent) ",
@@ -156,7 +156,7 @@ export const tripsEn = [
   },
   {
     id: "trip3",
-    name: "Tour to Khuvsgul lake",
+    name: "Round tour through the Hangai",
     mainImg: trip3_Main,
     desc: "This tour will take you:",
     desc2:
@@ -167,7 +167,7 @@ export const tripsEn = [
     group: "2-12",
     price: "2800$ - 1400$",
     hotel: "Zelte, Ger camp, Hotel",
-    transport: "Mini van, Kamel",
+    transport: "Mini van, Camel",
     paragraph: [
       "Day 1: After a brief rest, we will go out and explore the city of Ulaanbaatar. We will have lunch and you will have an opportunity to exchange your currency into Mongolian tugriks. You will visit the State Department Store and see the Genghis Square, visit the center of Buddhist religion, the Gandan monastery. You will also visit the newly opened Chinggis Khaan National Museum, and have a dinner aftewards. The evening will be at your disposal, so you can have a good rest before the start of the trip. (Spending a night in a hotel)    ",
       "Day 2: We will have breakfast at the hotel and begin our trip. We will drive from capital city Ulaanbaatar towards West, South-West and arrive in Elsen Tasarkhai sand dunes. The sand dunes are unique, as they are stretching over 80 kilometers in the middle of fertile pasturelands. You can enjoy the beautiful scenery and specific flora of the area, walk through the dunes, ride Bactrian (two-humped) camels. You will spend a night in a Mongolian gher camp. 	“Khugno khan” gher camp – MNT80,000 per person, 	Breakfast – MNT35,000, 	Dinner – MNT35,000, 	Translator – MNT25,000-40,000",
@@ -217,7 +217,7 @@ export const tripsEn = [
     // group: '2-12',
     // price: '2200$ - 1400$',
     // hotel: 'Zelte, Hotel',
-    // transport: 'Mini van, Mongolische Pferde',
+    // transport: 'Mini van, Mongolian horse',
     paragraph: [
       "Day 1: After a brief rest, we will go out and explore the city of Ulaanbaatar. We will have lunch and you will have an opportunity to exchange your currency into Mongolian tugriks. You will visit the State Department Store and see the Genghis Square, visit the center of Buddhist religion, the Gandan monastery. You will also visit the newly opened Chinggis Khaan National Museum, and have a dinner aftewards. The evening will be at your disposal, so you can have a good rest before the start of the trip. (Spending a night in a hotel)  ",
       "Day 2: We will have breakfast at the hotel and begin our trip. We will drive from capital city Ulaanbaatar towards West, South-West. We will drive towards Orkhon river basin – witness of many historic events. Here we will meet a Mongolian family of horse herders. You will spend a night in a tent.",
@@ -265,7 +265,7 @@ export const tripsEn = [
     group: "2-12",
     price: "1500$ - 800$",
     hotel: "Zelte, Hotel",
-    transport: "Mini van, Mongolische Pferde",
+    transport: "Mini van, Mongolian horse",
     paragraph: [
       "Day 1: We will pick you up from the airport and we’ll commence our journey straight away. We will drive East from the capital city towards Terelj and spend the night on the banks of the Tuul River. Gorkhi-Terelj National Park is a beautiful place with a combination of streams, mountains, rock formations and woods. From here, the cars will return to Ulaanbaatar and our horse-riding adventure will begin on the next day. Here you will meet your horses and guides. (Sleeping in a tent)",
       "Day 2: After the breakfast, we will take down the tents, pack the luggage on the horses and start our road trip. On this day, we will ride our horses through the wooded mountains all day and spend the night on the banks of the Tuul river, often called the Queen Tuul that has long been known for beautiful landscapes and abundant wildlife. (Sleeping in a tent)",
@@ -308,7 +308,7 @@ export const tripsEn = [
     group: "2-12",
     price: "2000$ - 1400$",
     hotel: "Zelte, Hotel",
-    transport: "Mini van, Mongolische Pferde",
+    transport: "Mini van, Mongolian horse",
     paragraph: [
       "Day 1: After a brief rest, we will go out and explore the city of Ulaanbaatar. We will have lunch and you will have an opportunity to exchange your currency into Mongolian tugriks. You will visit the State Department Store and see the Genghis Square, visit the center of Buddhist religion, the Gandan monastery. You will also visit the newly opened Chinggis Khaan National Museum, and have a dinner aftewards. The evening will be at your disposal, so you can have a good rest before the start of the trip. (Spending a night in a hotel)    ",
       "Day 2: After a breakfast at the hotel, we will drive outside the city for about an hour towards the Gorkhi-Terelj National Park. Our horsemen and the horses will be waiting for us there. You will have some time to get to know the men and the horses, then we will ride the horses and our horse-riding adventure will begin. The first night in the wilderness will be at the banks of the Tuul river. (Sleeping in a tent)",
@@ -337,7 +337,7 @@ export const tripsEn = [
     group: "2-12",
     price: "1600$ - 900$",
     hotel: "Zelte, Ger camp, Hotel",
-    transport: "4x4 Mini van, Mini van, Mongolische Pferde, Kamel",
+    transport: "4x4 Mini van, Mongolian horse, Camel",
     paragraph: [
       "Day 1: You will be picked up from the airport and driven to your hotel. After a brief rest, we will go out and explore the city of Ulaanbaatar. After lunch you will have an opportunity to exchange your currency into Mongolian tugriks. You will visit the State Department Store and see the Genghis Square, visit the center of Buddhist religion, the Gandan monastery. You will also visit the newly opened Chinggis Khaan National Museum, and have a dinner aftewards. The evening will be at your disposal, so you can have a good rest before the start of the trip. (Spending a night in a hotel)",
       "Day 2: Heading south early in the morning, we will spend the night near unusual granite rock formation called Baga Gazar Stone mountain located in Dundgovi province. (Spend a night in a tent)",
@@ -388,7 +388,7 @@ export const tripsEn = [
   },
   {
     id: "trip9",
-    name: "1-day trip ",
+    name: "Lifestyle, customs and religion of Mongolian nomads.",
     mainImg: trip9_Main,
     desc: "1-day trip where you can understand and see the traditional lifestyle, customs and religion of Mongolian nomads. ",
     desc2:
@@ -399,7 +399,7 @@ export const tripsEn = [
     group: "2-8",
     price: "250$ - 150$",
     // hotel: 'Zelte, Hotel',
-    transport: "Mini van, Mongolische Pferde",
+    transport: "Mini van, a horse",
     paragraph: [
       "•	Traditional welcoming of the guests ",
       "•	Visiting a Mongolian nomadic family ",
@@ -424,7 +424,7 @@ export const tripsEn = [
   },
   {
     id: "trip10",
-    name: "One-day tour: Mongolian lifestyle and the Naadam festival ",
+    name: "One-day tour: Mongolian lifestyle and mini-Naadam festival ",
     mainImg: trip10_Main,
     desc: "During this one-day tour, you will learn about traditional lifestyle, traditions and culture of Mongolian nomads. For many tourists it is difficult to plan a trip to Mongolia in early July and attend the Mongolian National Festival “Naadam”. Therefore, we will give you an opportunity to participate in a mini-Naadam. During the national Naadam festivities, the competitions and performances are held in different places. Whereas during the mini-Naadam, you can watch all of them at one location.desc2:",
     // nights: '10 Nächte',
@@ -433,7 +433,7 @@ export const tripsEn = [
     group: "2-8",
     price: "300$ - 200$",
     // hotel: 'Zelte, Hotel',
-    transport: "Mini van, Mongolische Pferde",
+    transport: "Mini van, Mongolische horse",
     paragraph: [
       "9.00: You will be picked up from your hotel and taken to the performance venue.",
       "10.00: You can experience Mongolian nomadic culture, lifestyle, five types of livestock, which form the basis of Mongolian traditional nomadic pastoral husbandry, national costumes, traditional dairy products and delicacies – all at once, by participating in the Mongolian Nomad program. The show will include:",

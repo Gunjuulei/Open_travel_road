@@ -5,7 +5,7 @@
   "blogText": "Discover stories, thinking, and expertise from writers on any topic.",
   "aboutUs": "About us",
   "contact": "Contact",
-  "travelMongolia": "Travel MONGOLIA",
+  "travelMongolia": "Travel to MONGOLIA",
   "explore": "Explore the TOURS",
   "create": "Create your greatest memories in Mongolia!",
   "about": {
@@ -38,5 +38,12 @@
     "item2": "Transportation to/from Mongolia",
     "item3": "Drinks",
     "item4": "Costs, not mentioned above"
+  },
+  "tripDesc": {
+    "date": "Date",
+    "group": "Group size",
+    "price": "Tour price",
+    "transport": "Transportation",
+    "accom": "Accommodation"
   }
 }

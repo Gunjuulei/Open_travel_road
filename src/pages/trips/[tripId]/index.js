@@ -112,7 +112,7 @@ export default function TripSingle() {
                             }
 
                         </div>
-                        <div className={'flex flex-col gap-6 mt-10 text-black'} style={{fontWeight: 500}}>
+                        <div className={'flex flex-col gap-6 mt-10 text-[#273A64]'} style={{fontWeight: 500}}>
 
                             <p>
                                 {t('specialArr.title')}:

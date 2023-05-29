@@ -45,5 +45,14 @@
     "price": "Tour price",
     "transport": "Transportation",
     "accom": "Accommodation"
+  },
+  "contactUs": {
+    "here": "WE'RE HERE",
+    "us": "Contact us",
+    "desc": "Do you have any questions about the trip or would you like advice from our travel experts?",
+    "desc1": "We are looking forward to your contact.",
+    "phone": "Mobile",
+    "mail": "EMail",
+    "desc2": "We'll get back to you immediately!"
   }
 }

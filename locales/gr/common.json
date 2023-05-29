@@ -45,5 +45,14 @@
     "price": "Reisepreise",
     "transport": "Transport",
     "accom": "Unterkunft"
+  },
+  "contactUs": {
+    "here": "WIR SIND HIER",
+    "us": "Kontaktiere uns",
+    "desc": "Sie haben Fragen zur Reise oder wünschen Sie eine Beratung durch unsere Reise-Experten?",
+    "desc1": "Wir freuen uns auf Ihre Kontaktaufnahme.",
+    "phone": "Telephone",
+    "mail": "Mail",
+    "desc2": "Wir melden uns umgehend zurück!"
   }
 }

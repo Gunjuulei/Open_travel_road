@@ -27,19 +27,19 @@ export default function ContactUs() {
                     </div>
                     <div className={'w-[650px] flex flex-col items-start gap-[20px]'}>
                         <h3 className={'text-2xl font-bold'}>
-                            CONTACT US
+                            {t('contactUs.us')}:
                         </h3>
                         <h2 className={'text-6xl font-bold'}>
-                            WE’RE HERE
+                            {t('contactUs.here')}:
                         </h2>
                         <div className={'flex flex-col gap-6 font-semibold items-start'}>
                             <div className={'flex flex-row gap-2 items-center'}>
                                 <Image src={mail} alt={""} />
-                                <p>Mail: oprotravel@gmail.com</p>
+                                <p>{t('contactUs.mail')}: oprotravel@gmail.com</p>
                             </div>
                             <div className={'flex flex-row gap-2  items-center'}>
                                 <Image src={phone} alt={""} />
-                                <p>Phone: +976 95075579, +976 99299986</p>
+                                <p>{t('contactUs.phone')}: +976 95075579, +976 99299986</p>
                             </div>
                             <div className={'flex flex-row gap-2  items-center'}>
                                 <Image src={phone} alt={""} />
@@ -47,11 +47,17 @@ export default function ContactUs() {
                             </div>
                         </div>
                         <p>
-                            This Contact Us page is for a marketing agency that works directly with businesses. Since it knows its audience, Brandaffair encourages visitors to &quot;have a talk&quot; one-on-one rather than providing a one-way communication channel via support resources.                            <br />
+                            {t('contactUs.desc')}
                         </p>
-                        <Link href={'https://docs.google.com/forms/d/e/1FAIpQLSenxHRBsHc7RQxVXkmyICsFcUyfElR1MAtiPN8hbRfhuzYGPA/viewform'} target="_blank">
+                        <p>
+                            {t('contactUs.desc1')}
+                        </p>
+                        <p>
+                            {t('contactUs.desc2')}
+                        </p>
+                        <Link href={'https://docs.google.com/forms/d/e/1FAIpQLSe0m4ynYGbpiCReQd0pSQFzLgPUOXWe7Zb0x3wMkX2PLnNjXw/viewform'} target="_blank">
                             <Button style={{padding: '20px 144px'}} className={'bg-[#FF9F47] text-2xl rounded-[16px] px-4 py-1 text-white font-semibold self-start'}>
-                                <Image className={'w-[30px]'} src={iconEdit} alt={""} />  Go FROM
+                                <Image className={'w-[30px]'} src={iconEdit} alt={""} />  BOOK YOUR TRIP HERE
                             </Button>
                         </Link>
 

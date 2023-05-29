@@ -46,8 +46,8 @@ export default function AboutUs() {
             </Head>
             <Navbar />
             <div className={`w-full h-[80px] relative bg-black  flex z-0 flex-col`}></div>
-            <div className={`w-full h-[600px] justify-center px-[200px] relative bg-[#FF9F47] flex z-0 flex-col gap-12`}>
-                <h2 className={'text-8xl font-bold'}>
+            <div className={`w-full h-[600px] justify-center px-[200px] relative bg-[#FF9F47] flex z-0 flex-col gap-2`}>
+                <h2 className={'text-8xl font-bold mb-10'}>
                     {t('aboutUs')}
                 </h2>
                 <p className={'max-w-[1200px] font-semibold'}>

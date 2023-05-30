@@ -17,6 +17,9 @@ import CardTrip from "@/components/CardTrip";
 import cardDef from "../../../../public/assets/landing/tripCardDef.png";
 import Footer from "@/components/Footer";
 import useTranslation from "next-translate/useTranslation";
+import Button from "@/components/Button";
+import iconEdit from "../../../../public/assets/iconEdit.png";
+import Link from "next/link";
 
 export default function TripSingle() {
     const { locale } = useRouter();
@@ -61,7 +64,7 @@ export default function TripSingle() {
                                     {t('tripDesc.date')}:
                                 </span>
 
-                                <span className={'text-[#FF9F47]'}>{tripItem?.meeting} </span>
+                                <span className={'text-[#FF9F47] max-w-[300px]'}>{tripItem?.meeting} </span>
                             </div>
                             <div className={'flex flex-row gap-4 text-black items-center  font-semibold'}>
                                 <span className={'flex flex-row gap-2'}>
@@ -112,12 +115,12 @@ export default function TripSingle() {
                             }
 
                         </div>
-                        <div className={'flex flex-col gap-6 mt-10 text-[#273A64]'} style={{fontWeight: 500}}>
+                        <div className={'flex flex-col gap-6 mt-10 text-[#273A50]'} style={{fontWeight: 500}}>
 
                             <p>
                                 {t('specialArr.title')}:
                             </p>
-                            <ul className={'font-normal text-[14px] px-2'}>
+                            <ul className={'font-normal text-[16px] px-2'}>
                                 <li>
                                     - {t('specialArr.arr1')}
                                 </li>
@@ -132,7 +135,7 @@ export default function TripSingle() {
                             <p>
                                 {t('priceTrip.title')}:
                             </p>
-                            <ul className={'font-normal text-[14px] px-2'}>
+                            <ul className={'font-normal text-[16px] px-2'}>
                                 <li>
                                     - {t('priceTrip.item1')};
                                 </li>
@@ -177,6 +180,11 @@ export default function TripSingle() {
                                 </li>
 
                             </ul>
+                            <Link href={'https://forms.gle/EP5EpqGPofQLJQEVA'} target="_blank">
+                                <Button style={{padding: '20px 60px'}} className={'bg-[#FF9F47] text-2xl rounded-[16px] px-4 py-1 text-white font-semibold self-start'}>
+                                    <Image className={'w-[30px]'} src={iconEdit} alt={""} />  {t('contactUs.book')}
+                                </Button>
+                            </Link>
                         </div>
                     </div>
                     <div className={'max-w-[560px] flex flex-col gap-4 items-start'}>

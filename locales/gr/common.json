@@ -48,11 +48,12 @@
   },
   "contactUs": {
     "here": "WIR SIND HIER",
-    "us": "Kontaktiere uns",
+    "us": "Kontakte",
     "desc": "Sie haben Fragen zur Reise oder wünschen Sie eine Beratung durch unsere Reise-Experten?",
     "desc1": "Wir freuen uns auf Ihre Kontaktaufnahme.",
     "phone": "Telephone",
     "mail": "Mail",
-    "desc2": "Wir melden uns umgehend zurück!"
+    "desc2": "Wir melden uns umgehend zurück!",
+    "book": "Buchen Sie Ihre Reise hier"
   }
 }

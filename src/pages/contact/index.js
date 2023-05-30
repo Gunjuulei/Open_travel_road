@@ -55,9 +55,9 @@ export default function ContactUs() {
                         <p>
                             {t('contactUs.desc2')}
                         </p>
-                        <Link href={'https://docs.google.com/forms/d/e/1FAIpQLSe0m4ynYGbpiCReQd0pSQFzLgPUOXWe7Zb0x3wMkX2PLnNjXw/viewform'} target="_blank">
+                        <Link href={'https://forms.gle/EP5EpqGPofQLJQEVA'} target="_blank">
                             <Button style={{padding: '20px 144px'}} className={'bg-[#FF9F47] text-2xl rounded-[16px] px-4 py-1 text-white font-semibold self-start'}>
-                                <Image className={'w-[30px]'} src={iconEdit} alt={""} />  BOOK YOUR TRIP HERE
+                                <Image className={'w-[30px]'} src={iconEdit} alt={""} />  {t('contactUs.book')}
                             </Button>
                         </Link>
 

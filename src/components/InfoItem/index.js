@@ -12,7 +12,7 @@ export default function InfoItem({src, title, desc, link, ...props}) {
                 <div className={'flex flex-col gap-4 items-start bg-white w-[500px] p-3 max-w-[500px] md:w-full'}>
                     <Image className={'w-[150px]'} src={logo} alt={''} />
                     <h6 className={'text-bold text-base'}>{title}</h6>
-                    <p className={'text-[#7E7E7E] text-sm'}> {desc}</p>
+                    <p className={'text-[#7E7E7E] text-sm truncate'}> {desc}</p>
                 </div>
             </div>
         </Link>

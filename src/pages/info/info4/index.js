@@ -15,8 +15,10 @@ import send from "../../../../public/assets/send.svg"
 import CardTrip from "@/components/CardTrip";
 import cardDef from "../../../../public/assets/landing/tripCardDef.png";
 import Footer from "@/components/Footer";
+import useTranslation from "next-translate/useTranslation";
 
 export default function Info4() {
+    const { t } = useTranslation('common');
     return (
         <div className={'w-full'}>
             <Navbar />
@@ -27,34 +29,34 @@ export default function Info4() {
                 <section className={'w-full py-[80px] gap-24 flex flex-row items-start justify-center text-black relative z-1'}>
                     <div className={'w-[50%] max-w-[550px] flex flex-col gap-4 items-start'}>
                         <h2 className={'font-semibold text-5xl'}>
-                            Tour – SIM - Karte
+                            {t('infoSim.title')}
                         </h2>
                         <div className={'flex flex-col gap-6'}>
                             <ul style={{listStyleType: 'circle'}}>
                                 <li>
-                                    MobiCom - Der größte Betreiber in der Mongolei
+                                    {t('infoSim.mobi')}
                                 </li>
                                 <li>
-                                    Skytel - Zweitgrößter Betreiber in der Mongolei
+                                    {t('infoSim.sky')}
                                 </li>
                                 <li>
-                                    Unitel Group - Telekommunikation in der Mongolei
+                                    {t('infoSim.uni')}
                                 </li>
                                 <li>
-                                    GMobile - Die niedrigeren Preise in der Mongolei
+                                    {t('infoSim.gmo')}
                                 </li>
                             </ul>
                             <p>
-                                Mit der Prepaid-Tour-SIM-Karte können Sie bis zu 90% Ihrer Roaming-Kosten sparen.
+                                {t('infoSim.par1')}
                             </p>
                             <p>
-                                Es ist kein Vertrag erforderlich und es ist einfach zu bedienen. Die Multi-SIM-Karte passt auf jedes Gerät und unsere Wertpläne machen Ihren Aufenthalt noch interessanter. Bleiben Sie mit außergewöhnlich niedrigen Preisen in Verbindung.
+                                {t('infoSim.par2')}
                             </p>
                             <p>
-                                Internationaler anruf Mit diesem Prepaid-Service können Sie in 239 Länder der Welt telefonieren.
+                                {t('infoSim.par3')}
                             </p>
                             <p>
-                                Für internationale Auslandsgespräche: + Landesvorwahl + Telefonnummer = Anruf
+                                {t('infoSim.par4')}
                             </p>
                         </div>
                     </div>

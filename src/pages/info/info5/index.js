@@ -4,8 +4,10 @@ import Navbar from "@/components/Navbar";
 import bg from "../../../../public/assets/info/infoBg.jpg";
 import info5 from "../../../../public/assets/info/info5.png";
 import Footer from "@/components/Footer";
+import useTranslation from "next-translate/useTranslation";
 
 export default function Info5() {
+    const { t } = useTranslation('common');
     return (
         <div className={'w-full'}>
             <Navbar />
@@ -16,21 +18,21 @@ export default function Info5() {
                 <section className={'w-full py-[80px] gap-24 flex flex-row items-start justify-center text-black relative z-1'}>
                     <div className={'w-[50%] max-w-[550px] flex flex-col gap-4 items-start'}>
                         <h2 className={'font-semibold text-5xl'}>
-                            Strom, Netzstecker und Mobilfunkwelle in der Mongolei
+                            {t('infoPlug.title')}
                         </h2>
 
                         <div className={'flex flex-col gap-6'}>
                             <p>
-                                Die Mongolei arbeitet mit einer Versorgungsspannung von 230 V und 50 Hz. Strom ist fast stabil.
+                                {t('infoPlug.par1')}
                             </p>
                             <p>
-                                Für die Mongolei gibt es zwei zugehörige Steckertypen, Typ C und E. Steckertyp C ist der Stecker mit zwei runden Stiften und Stecker Typ E ist der Stecker mit zwei runden Stiften und einem Loch für den männlichen Furzstift der Buchse.
+                                {t('infoPlug.par2')}
                             </p>
                             <p>
-                                Stecker / Steckdosen sind ein Problem beim Reisen. Denn da werden auch die Stellen Sie daher immer sicher, dass Sie mit einem universellen Steckeradapter reisen.
+                                {t('infoPlug.par3')}
                             </p>
                             <p>
-                                Die Mongolei verwendet die folgenden GSM-Frequenzen: GSM 900 / GSM 1800. Stellen Sie auf Reisen sicher, dass Ihr Telefon die GSM-Frequenz des Landes unterstützt, in das Sie reisen. Normalerweise sind die unterstützten GSM-Frequenzen auf der Verpackung Ihres Telefons sowie im Handbuch angegeben.
+                                {t('infoPlug.par4')}
                             </p>
                         </div>
                     </div>

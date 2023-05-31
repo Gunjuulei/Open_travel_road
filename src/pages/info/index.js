@@ -31,12 +31,12 @@ export default function Info() {
             </div>
             <div className={`flex w-full max-w-[100vw] relative items-center z-0 flex-col`}>
                 <section className={'w-full max-w-[1200px] py-[100px] gap-6 flex flex-col items-center text-black gap-4 relative z-1'}>
-                    <InfoItem link={'info/info1'} src={info1} title={"Die beste Zeit für die Reise in die Mongolei"} desc={"Die ideale Reisezeit für die Mongolei beginnt im Mai und erreicht ihren höchsten Höhepunkt im Juli während des..."}/>
-                    <InfoItem link={'info/info2'} src={info2} title={"Reiseversicherung nach Mongolei"} desc={"Reiseversicherung: Sie können einfach und flexibel online kaufen, erweitern und Ansprüche geltend machen..."}/>
-                    <InfoItem link={'info/info3'} src={info3} title={"VISA für die Einreise in die Mongolei"} desc={"Reiseversicherung: Sie können einfach und flexibel online kaufen, erweitern und Ansprüche geltend machen..."}/>
-                    <InfoItem link={'info/info4'} src={info4} title={"Tour – SIM - Karte"} desc={"Mit der Prepaid-Tour-SIM-Karte können Sie bis zu 90% Ihrer Roaming-Kosten sparen..."}/>
-                    <InfoItem link={'info/info5'} src={info5} title={"Strom, Netzstecker und Mobilfunkwelle in der Mongolei"} desc={"Die Mongolei arbeitet mit einer Versorgungsspannung von 230 V und 50 Hz. Strom ist fast stabil..."}/>
-                    <InfoItem link={'info/info6'} src={info1} title={t('info6.title')} desc={t('info6.title')}/>
+                    <InfoItem link={'info/info1'} src={info1} title={t('infoBest.title')} desc={t('infoBest.par1')}/>
+                    {/*<InfoItem link={'info/info2'} src={info2} title={"Reiseversicherung nach Mongolei"} desc={"Reiseversicherung: Sie können einfach und flexibel online kaufen, erweitern und Ansprüche geltend machen..."}/>*/}
+                    <InfoItem link={'info/info3'} src={info3} title={t('infoVisa.title')} desc={t('infoVisa.par1')} />
+                    <InfoItem link={'info/info4'} src={info4} title={t('infoSim.title')} desc={t('infoSim.par1')}/>
+                    <InfoItem link={'info/info5'} src={info5} title={t('infoPlug.title')} desc={t('infoPlug.par1')}/>
+                    <InfoItem link={'info/info6'} src={info1} title={t('infoList.title')} desc={t('infoList.title')}/>
                 </section>
             </div>
             <Footer />

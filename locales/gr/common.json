@@ -55,5 +55,51 @@
     "mail": "Mail",
     "desc2": "Wir melden uns umgehend zurück!",
     "book": "Buchen Sie Ihre Reise hier"
+  },
+  "infoBest": {
+    "title": "Die beste Zeit für die Reise in die Mongolei",
+    "par1": "Die ideale Reisezeit für die Mongolei beginnt im Mai und erreicht ihren höchsten Höhepunkt im Juli während des Naadam Festivals der Mongolei. Im Juli und August ist das Wetter für Reisen am günstigsten. Dies ist die beste Zeit, wenn Sie die Kultur und die Schönheit der Natur mögen.",
+    "par2": "Das Klima in der Mongolei: Die Mongolei hat eine hohe Höhe mit einem kalten und trockenen Klima. Es hat ein extremes kontinentales Klima mit langen, kalten Wintern und kurzen Sommern, in denen die meisten Niederschläge fallen. ... Winternächte können in den meisten Jahren auf -40 ° C fallen.",
+    "par3": "Dies ist die sicherste Zeit des Jahres, um in die Mongolei zu reisen, was das Wetter, die Sonnentage in der gesamten Mongolei und die ausreichenden Niederschläge betrifft, um die Steppen üppig und grün zu machen.",
+    "par4": "Ulaanbaatar gilt als die kälteste Hauptstadt der Welt. Die Temperaturen können Ende Oktober drastisch unter 0°C und die Kaltbeißtemperatur im Januar und Februar auf -30°C fallen und bis April unter dem Gefrierpunkt bleiben. Juli bis September ist angenehm, aber es kann immer noch kalt werden. Die Mongolei ist ein Urlaubsort, den Sie mit Ihren Freunden und Ihrer Familie planen können. Der Ulaanbaatar liegt auf 1305 m über dem Meeresspiegel. Das vorherrschende Klima in Ulaanbaatar ist als lokales Steppenklima bekannt. Während des Jahres gibt es in Ulaanbaatar wenig Niederschlag. Die Durchschnittstemperatur in Ulaanbaatar beträgt -0,7°C. Der jährliche Niederschlag beträgt 256 mm."
+  },
+  "infoList": {
+    "title": "List of Mongolian embassies in the world"
+
+  },
+  "infoSim": {
+    "title": "Tour – SIM - Karte",
+    "mobi": "MobiCom - Der größte Betreiber in der Mongolei",
+    "sky": "Skytel - Zweitgrößter Betreiber in der Mongolei",
+    "uni": "Unitel Group - Telekommunikation in der Mongolei",
+    "gmo": "GMobile - Die niedrigeren Preise in der Mongolei",
+    "par1": "Mit der Prepaid-Tour-SIM-Karte können Sie bis zu 90% Ihrer Roaming-Kosten sparen.",
+    "par2": "Es ist kein Vertrag erforderlich und es ist einfach zu bedienen. Die Multi-SIM-Karte passt auf jedes Gerät und unsere Wertpläne machen Ihren Aufenthalt noch interessanter. Bleiben Sie mit außergewöhnlich niedrigen Preisen in Verbindung.",
+    "par3": "Internationaler anruf Mit diesem Prepaid-Service können Sie in 239 Länder der Welt telefonieren.",
+    "par4": "Für internationale Auslandsgespräche: + Landesvorwahl + Telefonnummer = Anruf"
+  },
+  "infoVisa": {
+    "title": "VISA für die Einreise in die Mongolei",
+    "par1": "Seit dem 1. September 2013 dürfen Staatsbürger der Bundesrepublik Deutschland mit einem gültigen Reisepass von mindestens 6 Monaten am Tag der Einreise maximal 30 Tage ohne Visum in die Mongolei reisen. Dies geht aus der einseitigen Entscheidung der mongolischen Regierung vom 8. Mai 2013 hervor.",
+    "par2": "Seit dem 1. September 2013 dürfen Staatsbürger der Bundesrepublik Deutschland mit einem gültigen Reisepass von mindesten 6 Monaten am Tag der Einreise maximum 30 Tage ohne Visum in die Mongolia reisen. Dies geht aus der einseitigen Entscheidung der mongolischen Regierung vom 8. Mai 2013 hervor.",
+    "par3": "Citizens of other ausgewiesener Länder do not need a visa even if they are traveling longer than 30 or 90 days in Mongolia. Zu diesen Länder gehören Japan, Thailand, Malaysia, USA, Canada, Brasilien, Russland, Weißrussland, die Ukraine, Serbien, die Türkei und Israel.",
+    "par4": "Details zu den redüzzenten Einreisebestimmungen finden Sie auf der Website des mongolischen Außenministeriums: http://consul.mn/eng/ The visa is exclusively issued by the Embassy in Berlin. The Mongolian Honorary Consuls in the Federal Republic of Germany are not entitled to issue a visa. Die Bearbeitung des Visumantrags und des Visumantrags duart 5 Werktage. Solange die für die Ausstellung des Visas erforderlichen Unterlagen nicht fully eingereicht wurden, wird der Visumantrag nicht bearbeitet. In special cases, the visa can be issued within 24-48 hours.",
+    "par5": "Einreisebestimmungen für Staatsangehörige aus anderen Länder Staatsangehörige of other countries with residence in Germany, who would like to travel to Germany for a short period of time or travel to Mongolia for 30 days via a German travel company, can apply for a visa at the embassy in Berlin. Citizens from other countries who want to travel to Mongolia for more than 30 days for touristic or other reasons must apply for a visa in advance at the Immigration Authority in Ulaanbaatar via the einladende Einrichtung or Person. Im Falle einer positiven Entscheidung über den Visamantrag erhält die einladende Einrichtung oder Person eine offizielle Bestistigung von der Einwanderungsbehörde. Then the applicant can send his original passport with the corresponding documents to the Embassy in Berlin or send it personally.",
+    "listTitle": "Einzureichende Unterlagen Für Staatsangehörige anderer Länder:",
+    "list1": "1. Antragsformular (vollständig ausfüllen, persönlich unterschreiben) (Download Antragsformular)",
+    "list2": "2. Anmeldebestätigung in Deutschland",
+    "list3": "3. Reisepass im Original (valid for at least 6 months on the day of entry into Mongolia)",
+    "list4": "4. Passport (1 Stück, Bildformat 35 × 45 mm, ohne Rand)",
+    "list5": "5. Proof of Buchung einer Reise in die Mongolia (Flugticket, Bahnticket etc.)",
+    "list6": "6. Verification of hotel reservations in Mongolia or confirmation of travel companies over accommodation in Mongolia",
+    "list7": "7. Proof of transfer of visa fees on the embassy account (seeh Gebühren)",
+    "list8": "8. Registrierter Umschlag für die Rücksendung."
+  },
+  "infoPlug": {
+    "title": "Strom, Netzstecker und Mobilfunkwelle in der Mongolei",
+    "par1": "Die Mongolei arbeitet mit einer Versorgungsspannung von 230 V und 50 Hz. Strom ist fast stabil.",
+    "par2": "Für die Mongolei gibt es zwei zugehörige Steckertypen, Typ C und E. Steckertyp C ist der Stecker mit zwei runden Stiften und Stecker Typ E ist der Stecker mit zwei runden Stiften und einem Loch für den männlichen Furzstift der Buchse.",
+    "par3": "Stecker / Steckdosen sind ein Problem beim Reisen. Denn da werden auch die Stellen Sie daher immer sicher, dass Sie mit einem universellen Steckeradapter reisen.",
+    "par4": "Die Mongolei verwendet die folgenden GSM-Frequenzen: GSM 900 / GSM 1800. Stellen Sie auf Reisen sicher, dass Ihr Telefon die GSM-Frequenz des Landes unterstützt, in das Sie reisen. Normalerweise sind die unterstützten GSM-Frequenzen auf der Verpackung Ihres Telefons sowie im Handbuch angegeben."
   }
 }

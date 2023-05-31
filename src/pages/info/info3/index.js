@@ -4,8 +4,10 @@ import Navbar from "@/components/Navbar";
 import bg from "../../../../public/assets/info/infoBg.jpg";
 import info3 from "../../../../public/assets/info/info3.png";
 import Footer from "@/components/Footer";
+import useTranslation from "next-translate/useTranslation";
 
-export default function Info1() {
+export default function Info3() {
+    const { t } = useTranslation('common');
     return (
         <div className={'w-full'}>
             <Navbar />
@@ -16,7 +18,7 @@ export default function Info1() {
                 <section className={'w-full py-[80px] gap-24 flex flex-row items-start justify-center text-black relative z-1'}>
                     <div className={'w-[50%] max-w-[550px] flex flex-col gap-4 items-start'}>
                         <h2 className={'font-semibold text-5xl'}>
-                            VISA für die Einreise in die Mongolei
+                            {t('infoVisa.title')}
                         </h2>
                         <p className={'font-semibold text-base'}>
                             Seit dem 1. September 2013 dürfen Staatsbürger der Bundesrepublik Deutschland mit einem gültigen Reisepass von mindestens 6 Monaten am Tag der Einreise maximal 30 Tage ohne Visum in die Mongolei reisen. Dies geht aus der einseitigen Entscheidung der mongolischen Regierung vom 8. Mai 2013 hervor.

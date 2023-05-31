@@ -55,5 +55,51 @@
     "mail": "EMail",
     "desc2": "We'll get back to you immediately!",
     "book": "Book your trip here"
+  },
+  "infoBest": {
+    "title": "Best time to travel to Mongolia",
+    "par1": "The ideal travel time for Mongolia starts in May and reaches its highest peak in July during Mongolia's Naadam Festival. In July and August the weather is most favorable for travel. This is the best time if you like culture and natural beauty.",
+    "par2": "The climate of Mongolia: Mongolia has a high altitude with a cold and dry climate. It has an extreme continental climate, with long, cold winters and short summers, when most of the precipitation falls. ... Winter nights can drop to -40°C most years.",
+    "par3": "This is the safest time of year to travel to Mongolia in terms of weather, sunny days throughout Mongolia, and enough rainfall to make the steppes lush and green.",
+    "par4": "Ulaanbaatar is known as the coldest capital city in the world. Temperatures can drop drastically below 0°C in late October and cold biting to -30°C in January and February and stay below freezing until April. July to September is pleasant but can still get cold. Mongolia is a vacation spot that you can plan with your friends and family. Ulaanbaatar is 1305 m above sea level. The prevailing climate in Ulaanbaatar is known as the local steppe climate. During the year, there is little rainfall in Ulaanbaatar. ... The average temperature in Ulaanbaatar is -0.7 °C / 30.7 °F. Annual precipitation is 256 mm / 10.1 in."
+  },
+  "infoList": {
+    "title": "List of Mongolian embassies in the world"
+
+  },
+  "infoSim": {
+    "title": "Tour – SIM card",
+    "mobi": "MobiCom - The largest operator in Mongolia.",
+    "sky": "Skytel - Second largest operator in Mongolia",
+    "uni": "Unitel Group - Telecommunications in Mongolia",
+    "gmo": "GMobile - The lower prices in Mongolia",
+    "par1": "With the prepaid tour SIM card you can save up to 90% on your roaming costs.",
+    "par2": "No contract is required and it is easy to use. The multi-SIM card fits every device and our value plans make your stay even more interesting. Stay connected with exceptionally low prices.",
+    "par3": "International call With this prepaid service you can make calls to 239 countries around the world.",
+    "par4": "For international international calls: + country code + phone number = call"
+  },
+  "infoVisa": {
+    "title": "VISA for entry into Mongolia",
+    "par1": "As of 01.07.2018, the new regulation for the issuance of visas for Mongolia is valid. Please inform yourself about the changed requirements for visa applications.",
+    "par2": "Seit dem 1. September 2013 dürfen Staatsbürger der Bundesrepublik Deutschland mit einem gültigen Reisepass von mindesten 6 Monaten am Tag der Einreise maximum 30 Tage ohne Visum in die Mongolia reisen. Dies geht aus der einseitigen Entscheidung der mongolischen Regierung vom 8. Mai 2013 hervor.",
+    "par3": "Citizens of other ausgewiesener Länder do not need a visa even if they are traveling longer than 30 or 90 days in Mongolia. Zu diesen Länder gehören Japan, Thailand, Malaysia, USA, Canada, Brasilien, Russland, Weißrussland, die Ukraine, Serbien, die Türkei und Israel.",
+    "par4": "Details zu den redüzzenten Einreisebestimmungen finden Sie auf der Website des mongolischen Außenministeriums: http://consul.mn/eng/ The visa is exclusively issued by the Embassy in Berlin. The Mongolian Honorary Consuls in the Federal Republic of Germany are not entitled to issue a visa. Die Bearbeitung des Visumantrags und des Visumantrags duart 5 Werktage. Solange die für die Ausstellung des Visas erforderlichen Unterlagen nicht fully eingereicht wurden, wird der Visumantrag nicht bearbeitet. In special cases, the visa can be issued within 24-48 hours.",
+    "par5": "Einreisebestimmungen für Staatsangehörige aus anderen Länder Staatsangehörige of other countries with residence in Germany, who would like to travel to Germany for a short period of time or travel to Mongolia for 30 days via a German travel company, can apply for a visa at the embassy in Berlin. Citizens from other countries who want to travel to Mongolia for more than 30 days for touristic or other reasons must apply for a visa in advance at the Immigration Authority in Ulaanbaatar via the einladende Einrichtung or Person. Im Falle einer positiven Entscheidung über den Visamantrag erhält die einladende Einrichtung oder Person eine offizielle Bestistigung von der Einwanderungsbehörde. Then the applicant can send his original passport with the corresponding documents to the Embassy in Berlin or send it personally.",
+    "listTitle": "Einzureichende Unterlagen Für Staatsangehörige anderer Länder:",
+    "list1": "1. Antragsformular (vollständig ausfüllen, persönlich unterschreiben) (Download Antragsformular)",
+    "list2": "2. Anmeldebestätigung in Deutschland",
+    "list3": "3. Reisepass im Original (valid for at least 6 months on the day of entry into Mongolia)",
+    "list4": "4. Passport (1 Stück, Bildformat 35 × 45 mm, ohne Rand)",
+    "list5": "5. Proof of Buchung einer Reise in die Mongolia (Flugticket, Bahnticket etc.)",
+    "list6": "6. Verification of hotel reservations in Mongolia or confirmation of travel companies over accommodation in Mongolia",
+    "list7": "7. Proof of transfer of visa fees on the embassy account (seeh Gebühren)",
+    "list8": "8. Registrierter Umschlag für die Rücksendung."
+  },
+  "infoPlug": {
+    "title": "Electricity, power plug and mobile phone wave in Mongolia",
+    "par1": "Mongolia works with a supply voltage of 230 V and 50 Hz. Current is almost stable.",
+    "par2": "For Mongolia, there are two associated plug types, Type C and E. Plug type C is the plug with two round pins and plug Type E is the plug with two round pins and a hole for the female fart pin of the socket.",
+    "par3": "Plugs/sockets are a problem when traveling. Because there will also be the So always make sure you travel with a universal plug adapter.",
+    "par4": "Mongolia GSM frequency 900 MHz It was founded by Mongolian Newcom Group and Japanese KDDI. Mobicom operates standard 2G GSM services over 900MHz and launched 3G UMTS services over the B1 band (2100MHz) in 2009. Mongolia uses the following GSM frequencies: GSM 900 / GSM 1800. When travelling, make sure your phone supports the GSM frequency of the country you are traveling to. Usually the supported GSM frequencies are stated on the box of your phone as well as in the manual."
   }
 }

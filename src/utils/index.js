@@ -143,9 +143,9 @@ export const tripsEn = [
       "Day 8: Free day. Shamanism is the ancient religion of the nomadic Mongols, the unique civilization of Central Asia. Shamanism worships the Eternal Blue Sky, the Mother-Nature, and the Ancestors. According to historical sources, from the beginning of human existence, and through the end of the Golden Age of Mongolians, shamanism was the main form of worship. Khuvsgul province is famous for its powerful shamans. You can go for a walk and visit the local shamans to ask your fortune and ask questions regarding your physical and mental issues. (Spend a night in a gher)",
       "Day 9: We will continue our trip in the direction of Bulgan province. On the way, we will visit the dormant volcano called Uran Togoo, which is a feature of Bulgan province. It is 1686 meters above sea level and has a 500-600 meters wide and 50-60 meters deep crater at the top. The height of Togo mountain is 1620 meters. In 1065, this mountain was taken under special state protection. We will spend a night in a tent.",
       "Day 10: Today we will spend a night near Bulgan aimag center. (stay in a tent)",
-      "Day 11: Return to Ulaanbaatar. After lunch you will visit the cashmere outlet store and other souvenir shops. In the evening we will see a concert of a folklore ensemble and enjoy a farewell dinner in a nice restaurant afterwards. You will spend a night in a hotel.",
-      "Day 12: Airport. Flight.",
-
+      "Day 11: Today we will visit the famous Hustain Mountain National Park. The number of horses has reached more than 390 since the area was taken under special protection in 1993 in order to reintroduce wild horses (Przewalski's horses), which were extinct in nature. Deer, marmots, Mongolian antelopes and 213 species of birds inhabit this national park and their numbers are steadily increasing. Take a walk through the park territory and see rare wildlife such as the red-listed zebra. (stay in a tent)",
+      "Day 12: Return to Ulaanbaatar. After lunch you will visit the cashmere outlet store and other souvenir shops. In the evening we will see a concert of a folklore ensemble and enjoy a farewell dinner in a nice restaurant afterwards. You will spend a night in a hotel.",
+      "Day 13: Airport. Flight"
     ],
     images: [trip3_2, trip3_3, trip3_4, trip3_5, trip3_6, trip3_7],
   },

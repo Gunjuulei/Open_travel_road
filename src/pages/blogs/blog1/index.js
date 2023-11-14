@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Navbar from "@/components/Navbar";
-import bg from "../../../../public/assets/info/infoBg.jpg";
+import bg from "../../../../public/assets/info/info.jpg";
 import blog from "../../../../public/assets/blogs/blog.png";
 import blog1 from "../../../../public/assets/blogs/blog1.png";
 import blog2 from "../../../../public/assets/blogs/blog2.png";

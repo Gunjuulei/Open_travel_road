@@ -12,7 +12,15 @@ import InfoItem from "@/components/InfoItem";
 import Footer from "@/components/Footer";
 import useTranslation from "next-translate/useTranslation";
 import Head from "next/head";
+import bg from "../../../public/assets/bg/faqsBg.jpg";
 export default function Info() {
+    const bgStyle = {
+        background: `url(${bg.src}) no-repeat center fixed`,
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        position: 'relative',
+    };
     const { t } = useTranslation('common');
     return (
         <>
@@ -29,7 +37,7 @@ export default function Info() {
                     Discover stories, thinking, and expertise from writers on any topic.
                 </p>
             </div>
-            <div className={`flex w-full max-w-[100vw] relative items-center z-0 flex-col`}>
+            <div className={`flex w-full max-w-[100vw] relative items-center z-0 flex-col` } style={bgStyle} >
                 <section className={'w-full max-w-[1200px] py-[100px] gap-6 flex flex-col items-center text-black gap-4 relative z-1'}>
                     <InfoItem link={'info/info1'} src={info1} title={t('infoBest.title')} desc={t('infoBest.par1')}/>
                     {/*<InfoItem link={'info/info2'} src={info2} title={"Reiseversicherung nach Mongolei"} desc={"Reiseversicherung: Sie können einfach und flexibel online kaufen, erweitern und Ansprüche geltend machen..."}/>*/}

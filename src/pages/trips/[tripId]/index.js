@@ -1,7 +1,6 @@
 import Image from "next/image";
-import { Swiper, SwiperSlide } from "swiper/react";
 import Navbar from "@/components/Navbar";
-import bg from "../../../../public/assets/landing/grid5.png";
+import bg from "../../../../public/assets/bg/bg2.jpg";
 import mapBig from "../../../../public/assets/landing/mapBig.png";
 import {useRouter} from "next/router";
 import {tripsEn} from "@/utils";
@@ -20,6 +19,9 @@ import useTranslation from "next-translate/useTranslation";
 import Button from "@/components/Button";
 import iconEdit from "../../../../public/assets/iconEdit.png";
 import Link from "next/link";
+import {useEffect} from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function TripSingle() {
     const { locale } = useRouter();
@@ -28,16 +30,29 @@ export default function TripSingle() {
     const trips = isEng ? tripsEn : tripsGr;
     const tripItem = trips.find((item => item.id === router.tripId))
     const { t } = useTranslation('common');
-    console.log(router, tripItem)
+    useEffect(()=> {
+        AOS.init();
+        const handleRouteChange = () => {
+            AOS.refresh();
+        };
+
+        window.addEventListener('routeChangeComplete', handleRouteChange);
+
+        return () => {
+            window.removeEventListener('routeChangeComplete', handleRouteChange);
+        };
+    },[])
     return (
         <div className={'w-full'}>
             <Navbar />
-            <div className={`w-full  relative bg-black  flex z-0 flex-col`}>
-                <Image className={'w-full object-cover h-[400px]'} src={bg} alt={''} />
+            <div className={`w-full overflow-y-hidden h-[400px] relative bg-black flex z-0 flex-col`}>
+                <Image className={'w-full h-[400px]'} style={{ objectFit: 'cover'}} src={bg} alt={''} />
             </div>
             <div className={`flex w-full max-w-[100vw] relative flex z-0 flex-col`}>
                 <section className={'w-full py-[80px] gap-24 flex flex-col lg:flex-row items-center lg:items-start lg:justify-center text-black relative z-1'}>
-                    <div className={'max-w-[520px] flex flex-col gap-4 items-start'}>
+                    <div className={'max-w-[520px] flex flex-col gap-4 items-start'}
+                         data-aos="fade-right"
+                         data-aos-duration="800">
                         <h2 className={'font-semibold text-4xl'}>
                             {tripItem?.name}
                         </h2>
@@ -187,7 +202,9 @@ export default function TripSingle() {
                             </Link>
                         </div>
                     </div>
-                    <div className={'max-w-[560px] flex flex-col gap-4 items-start'}>
+                    <div className={'max-w-[560px] flex flex-col gap-4 items-start'}
+                         data-aos="fade-left"
+                         data-aos-duration="800">
                         <Image src={tripItem?.mainImg} alt={''} />
                         <div className={'w-full flex flex-col gap-4 mt-8'}>
                             {

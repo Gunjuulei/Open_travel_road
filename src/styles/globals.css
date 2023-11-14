@@ -28,7 +28,135 @@ h2 {
   background-color: #FF9F47;
 }
 .link {
-  padding: 6px 12px;
+  padding: 4px 7px;
   font-weight: 400;
   border-radius: 16px;
+}
+
+.tourItem {
+  padding: 0px;
+}
+.tourItem  h4 {
+  margin-top: 16px;
+}
+.tourItem a {
+  text-decoration: none !important;
+}
+.tourItem .text {
+  color: #10221B;
+}
+.tourItem .bottomBox {
+  position: relative;
+  padding-top: 15px;
+  margin-top: 15px;
+  border-top: 1px dashed #CFCFCF;
+}
+.tourItem .moreLink a {
+  color: #10221B;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 26px;
+}
+.tourItem .innerBox {
+  position: relative;
+  display: block;
+  background: #ffffff;
+  border: 1px solid #DEDEDE;
+  border-radius: 8px;
+}
+.tourItem .innerBox h4 {
+  position: relative;
+  font-weight: 700;
+  color: #10221B;
+  margin-bottom: 0px;
+}
+.tourItem .innerBox h4 a {
+  color: #10221B;
+  text-decoration: none;
+}
+
+.tourItem .price {
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.tourItem .image {
+  height: 200px;
+  position: relative;
+  background: #101010;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: 0.3s ease-in;
+  opacity: 0.9;
+}
+.tourItem .image img {
+  transition: 0.3s ease-in;
+  height: 100%;
+}
+
+.tourItem .lowerContent {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.tourItem:hover  .innerBox .image {
+  opacity: 1;
+}
+.tourItem:hover .innerBox .image img {
+  transform: scale(1.1);
+}
+.mobile-menu-btn {
+  position: absolute;
+  top: 22px;
+  right: 20px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 11;
+}
+
+/* Mobile menu */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 100;
+}
+
+.mobile-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 20px;
+  position: relative;
+  z-index: 100;
+}
+
+.mobile-links a {
+  margin-bottom: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.close-btn {
+  font-size: 24px;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.mobile-language-switcher {
+  margin-top: auto;
+  padding: 20px;
 }

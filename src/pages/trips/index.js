@@ -11,8 +11,16 @@ import { tripsGr} from "@/utils/german";
 import CardTrip from "@/components/CardTrip";
 import Footer from "@/components/Footer";
 import useTranslation from "next-translate/useTranslation";
+import bg from '../../../public/assets/bg/faqsBg.jpg'
 import Head from "next/head";
 export default function Trips() {
+    const bgStyle = {
+        background: `url(${bg.src}) no-repeat center fixed`,
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        position: 'relative',
+    };
     const { locale } = useRouter();
     const isEng = locale === 'en';
     const { t } = useTranslation('common');
@@ -24,11 +32,11 @@ export default function Trips() {
           </Head>
         <Navbar />
         <div className={`w-full h-[80px] relative bg-black  flex z-0 flex-col`}></div>
-        <div className={`flex w-full max-w-[100vw] relative z-0 flex-col items-center`}>
+        <div className={`flex w-full max-w-[100vw] relative z-0 flex-col items-center`}  >
             <h2 className={'text-2xl lg:text-6xl font-semibold mt-[100px] '}>
                 {t('trips')}
             </h2>
-          <section className={'w-full max-w-[1200px] py-[100px] gap-24 flex flex-row flex-wrap items-center justify-items-start text-black relative z-1'}>
+          <section style={bgStyle} className={'w-full max-w-[1200px] py-[100px] gap-8 flex flex-row flex-wrap items-center justify-center text-black relative z-1'}>
               {
                   trips?.map((item, idx)=> {
                       return (

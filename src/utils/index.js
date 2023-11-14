@@ -37,9 +37,9 @@ import trip7_main from "/public/assets/trips/701.jpg";
 import trip7_2 from "/public/assets/trips/702.jpg";
 import trip7_3 from "/public/assets/trips/703.jpg";
 import trip7_4 from "/public/assets/trips/704.jpg";
-import trip8_Main from "/public/assets/trips/801.jpg";
-import trip8_2 from "/public/assets/trips/802.jpg";
-import trip8_3 from "/public/assets/trips/803.jpg";
+// import trip8_Main from "/public/assets/trips/801.jpg";
+// import trip8_2 from "/public/assets/trips/802.jpg";
+// import trip8_3 from "/public/assets/trips/803.jpg";
 import trip8_4 from "/public/assets/trips/804.jpg";
 import trip8_5 from "/public/assets/trips/805.jpg";
 import trip8_6 from "/public/assets/trips/806.jpg";
@@ -56,6 +56,18 @@ import trip10_2 from "/public/assets/trips/1002.jpg";
 import trip10_3 from "/public/assets/trips/1003.jpg";
 import trip10_4 from "/public/assets/trips/1004.jpg";
 import trip10_5 from "/public/assets/trips/1005.jpg";
+import trip11_Main from "/public/assets/trips/bayanulgii1.jpg";
+import trip11_2 from "/public/assets/trips/bayanulgii2.jpg";
+import trip11_3 from "/public/assets/trips/bayanulgii3.jpg";
+import trip11_4 from "/public/assets/trips/bayanulgii4.jpg";
+import trip8_Main from "/public/assets/trips/huvsgul1.jpg";
+import trip8_2 from "/public/assets/trips/huvsgul2.jpg";
+import trip8_3 from "/public/assets/trips/huvsgul3.jpg";
+import trip12_Main from "/public/assets/trips/govi1.jpg";
+import trip12_2 from "/public/assets/trips/govi2.jpg";
+import trip12_3 from "/public/assets/trips/govi3.jpg";
+import trip12_4 from "/public/assets/trips/govi4.jpg";
+import trip12_5 from "/public/assets/trips/govi5.jpg";
 
 export const tripsEn = [
   {
@@ -67,9 +79,9 @@ export const tripsEn = [
       "To reach the place, you will travel on horseback through the wild nature and experience the beauty of the wilderness up close, passing through magnificent mountains, rivers and forests. This trip is more special than just driving to a wildlife destination. This trip will bring you to a paradise where you can fish a new spot every day and enjoy the pristine nature.",
     nights: "10 Nights",
     days: "11 Days",
-    meeting: "20.06.2023, 25.07.2023, 15.08.2023, 10.09.2023",
+    meeting: "20.06.2024, 25.07.2024, 15.08.2024, 10.09.2024",
     group: "2-12",
-    price: "2200$ - 1400$",
+    price: "2400$ - 1500$",
     hotel: "Tents, Hotel",
     transport: "Mini van, mongolian horse",
     paragraph: [
@@ -96,9 +108,9 @@ export const tripsEn = [
       "This trip is more special than just driving to a wildlife destination. This trip will bring you to a paradise where you can fish a new spot every day and enjoy the pristine nature. Special feature of this trip spending the day on the banks of rivers and lakes. It is an enormous pleasure to wash up and swim in a river or lake after several hours of horse-riding in hot summer days. ",
     nights: "10 night",
     days: "11 day",
-    meeting: "10.06.2023, 01.08.2023, 26.08.2023",
+    meeting: "10.06.2024, 01.08.2024, 26.08.2024",
     group: "2-12",
-    price: "2500$ - 1300$",
+    price: "2200$ - 1400$",
     hotel: "Tents, Ger camp, Hotel",
     transport: "Mini van, mongolian horse",
     paragraph: [
@@ -119,24 +131,23 @@ export const tripsEn = [
   },
   {
     id: "trip3",
-    name: "Tour to Khuvsgul lake",
+    name: "Roundtrip in Khangai region - Uvurkhangai, Arkhangai, Khuvsgul",
     mainImg: trip3_Main,
     desc: "This tour will take you:",
     desc2:
       "-	through the valley of the Orkhon river in Uvurkhangai province  -	through the ancestral land of the nomads, Arkhangai province  -	to Khuvsgul province, the land of dormant volcanos and the destination of many tourists, -	to Khuvsgul lake, the largest freshwater lake in Mongolia by volume and second largest by area. It is also one of the seventeen ancient lakes in the world.",
     nights: "12 night",
     days: "13 day",
-    meeting: "18.06.2023, 13.08.2023, 20.09.2023",
-    group: "2-12",
-    price: "2800$ - 1400$",
+    meeting: "18.06.2024, 13.08.2024, 20.09.2024",
+    group: "3-12",
+    price: "3000$ - 2000$",
     hotel: "Tents, Ger camp, Hotel",
     transport: "Mini van, a camel",
     paragraph: [
       "Day 1: After a brief rest, we will go out and explore the city of Ulaanbaatar. We will have lunch and you will have an opportunity to exchange your currency into Mongolian tugriks. You will visit the State Department Store and see the Genghis Square, visit the center of Buddhist religion, the Gandan monastery. You will also visit the newly opened Chinggis Khaan National Museum, and have a dinner aftewards. The evening will be at your disposal, so you can have a good rest before the start of the trip. (Spending a night in a hotel)  ",
       "Day 2: We will have breakfast at the hotel and begin our trip. We will drive from capital city Ulaanbaatar towards West, South-West and arrive in Elsen Tasarkhai sand dunes. The sand dunes are unique, as they are stretching over 80 kilometers in the middle of fertile pasturelands. You can enjoy the beautiful scenery and specific flora of the area, walk through the dunes, ride Bactrian (two-humped) camels. You will spend a night in a Mongolian gher camp.",
-      "Day 3: We will move towards the remains of Mongolia’s ancient capital Kharakhorum. You will be able to see Erdene Dzuu, the first Buddhist monastery in Mongolia, established by the Bogd Gegeen Zanabazar – the first supreme spiritual authority of Tibetan Buddhism in Mongolia. You will also see the Turtle rock, a must see landmark not far from the monastery. You will spend a night in a Mongolian gher near Tövkhön Monastery.",
-      "You will walk to the Tövkhön Monastery, one of Mongolia's oldest Buddhist monasteries, established in 17th century. Hiking through the rugged rocks and larch forest on a special trail will be a challenging yet interesting exercise as it will allow you to learn about unique religious traditions of Mongolians. (Spend a night in a tent) ",
-      "Day 4: In the morning we will go to the Tsenher (Blue) Hot Springs and stay the night in Mongolian ghers. On this day, you will relax in the second hottest spring in Mongolia. About 10 liters per second of alkalotic waters emerge from the ground at a temperature of 86 degrees Celsius. Medicinal qualities of this hot spring were known for centuries. Studies suggest that Blue hot spring waters help people suffering from scabies, neuritis, muscle diseases, joint diseases, anemia, fatigue, chronic skin diseases, and diabetes. (Spend a night in a gher)",
+      "Day 3: We will move towards the remains of Mongolia’s ancient capital Kharakhorum. You will be able to see Erdene Dzuu, the first Buddhist monastery in Mongolia, established by the Bogd Gegeen Zanabazar – the first supreme spiritual authority of Tibetan Buddhism in Mongolia. You will also see the Turtle rock, a must see landmark not far from the monastery. You will spend a night near Tövkhön Monastery. (Spend a night in a tent) ",
+      "Day 4: In the morning we will walk to the Tövkhön Monastery, one of Mongolia's oldest Buddhist monasteries, established in 17th century. Hiking through the rugged rocks and larch forest on a special trail will be a challenging yet interesting exercise as it will allow you to learn about unique religious traditions of Mongolians. After launch we will go to the Tsenher (Blue) Hot Springs and stay the night in Mongolian ghers. On this day, you will relax in the second hottest spring in Mongolia. About 10 liters per second of alkalotic waters emerge from the ground at a temperature of 86 degrees Celsius. Medicinal qualities of this hot spring were known for centuries. Studies suggest that Blue hot spring waters help people suffering from scabies, neuritis, muscle diseases, joint diseases, anemia, fatigue, chronic skin diseases, and diabetes. (Spend a night in a gher) ",
       "Day 5: We will travel towards Terkhiin Tsagaan (White) lake. We will go see the dormant volcano Khorgo and visit the pits at the national volcano park. You will spend the night in a gher.",
       "Day 6: The trip will continue towards Khuvsgul province. We will stay overnight in a beautiful wilderness near Shin-Ider sum. You will spend the night in a tent.",
       "Day 7: We will arrive at Khuvsgul lake, the largest freshwater lake in Mongolia by volume and second largest by area. It is also one of the seventeen ancient lakes in the world. We will stay the night near the Khuvsgul lake at a gher camp.",
@@ -158,7 +169,7 @@ export const tripsEn = [
       "In 2004, at its 28th session, UNESCO inscribed the Orkhon Valley Cultural Landscape on the World Heritage list. The site encompasses an extensive area of pastureland on both banks of the Orkhon River and includes numerous archaeological remains dating back to the 6th century. We offer you the chance to ride through Mongolia’s beautiful nature and the ancestral lands of the nomads on resilient Mongolian horses.",
     nights: "11 Nights",
     days: "12 Days",
-    meeting: '10.06.2023, 01.08.2023, 26.08.2023',
+    meeting: '10.06.2024, 01.08.2024, 26.08.2024',
     group: '2-12',
     price: '2500$ - 1300$',
     hotel: 'Tents, Ger, Hotel',
@@ -188,8 +199,8 @@ export const tripsEn = [
       "Located in 65 km from Ulaanbaatar, the Gorkhi Terelj National Park is a must see destination of foreign tourists visiting Mongolia. High granite stone mountains with forest-covered northern slopes, multitudes of wildflower meadows along with the spectacular shape rocks formed by wind is a favorite scenery for the visitors. Fast-flowing rivers and streams make the national park more beautiful.",
     nights: "6 night",
     days: "7 day",
-    meeting: "04.06.2023, 29.06.2023, 27.08.2023 ",
-    group: "2-12",
+    meeting: "04.06.2024, 29.06.2024, 27.08.2024 ",
+    group: "3-12",
     price: "1500$ - 800$",
     hotel: "Tents, Hotel",
     transport: "A van, mongolian horse",
@@ -213,7 +224,7 @@ export const tripsEn = [
     // desc2: 'Es ist auch eine Reise, die etwas Besonderes ist, als nur zu einem Ort zu fahren, an dem Sie Wildtiere beobachten können. Die Besonderheit der Reise ist, den Tag an den Ufern von Flüssen und Seen zu verbringen.',
     nights: "10 night",
     days: "11 day",
-    meeting: "06.06.2023, 18.07.2023, 29.08.2023 ",
+    meeting: "06.06.2024, 18.07.2024, 29.08.2024 ",
     group: "2-12",
     price: "2000$ - 1400$",
     hotel: "Tents, Hotel",
@@ -242,7 +253,7 @@ export const tripsEn = [
       ". It is believed that Gobi was formed due to low rainfall because the majestic Himalayan mountain range blocks the rain clouds coming to this region. Gobi is extremely diverse in terms of nature, climate and topography, as well as in terms of flora and fauna. For instance, the Umnogov (South Gobi) province is famous for archeological findings of rare fossils of ancient dinosaurs.  ",
     nights: "7 night",
     days: "8 day",
-    meeting: "29.05.2023, 17.07.2023, 21.08.2023, 18.09.2023",
+    meeting: "29.05.2024, 17.07.2024, 21.08.2024, 18.09.2024",
     group: "2-12",
     price: "1600$ - 900$",
     hotel: "Tents, Ger camp, Hotel",
@@ -261,40 +272,31 @@ export const tripsEn = [
   },
   {
     id: "trip8",
-    name: "Roundtrip in Khangai region – Khuvsgul lake, the Shamans, and the Tsaatan people.",
+    name: "The land of Shamans and Reindeer breeders-Khuvsgul.",
     mainImg: trip8_Main,
-    desc: "The Tsaatans are the people of the great taiga of Khuvsgul province. The Tsaatan people live in the northern part of Mongolia, in Khuvsgul province, which is admired for its beautiful nature and the magnificent lake of the same name. ",
-    desc2:
-      "Historians believe that the Tsaatangs migrated from Tuva and settled in Khuvsgul taiga. Tsaatangs are a national minority with their own language, customs, religion, and unique lifestyle. They speak Uighur language. Their religion is Shamanism. The Tsaatan people’s main way of making a living is to herd the raindeers and enjoy the benefits of hunting in the taiga.",
-    nights: "18 night",
-    days: "19 days",
-    meeting: "16.07.2023, 30.08.2023",
-    group: "2-8",
-    price: "3500$ - 2000$",
+    desc: "Khuvsgul Lake: A lake formed about 7 million years ago. The river is 101 kilometers north of the city of Murun, crossing Alag-Erdene, Renchinlkhumbe, Khanh and Chandmani-Undur sums of Khuvsgul province. It is a lake with an area of 2,760 square kilometers, 34-36 kilometers wide, 136 kilometers long and 262 meters deep, with an elevation of 1,645 meters above sea level. It has a coastline length of 414 kilometers and is the second largest in Asia in terms of water resources.",
+    desc2: "The taiga area of the Khuvsgul Basin is inhabited by the Tsaatan people, who call themselves Uighurs. Their native lands include the Mongolian “Yellow” passing and the Shishged River. In the great taiga of Khuvsgul, throughout the 4 seasons, the reindeer graze the lands. Historians believe that the Tsaatan people are the descendents of the Uriankhai of the Tuvan ethnic group who migrated from Tuva and settled in the Khuvsgul Taiga. The Tsaatan people are an ethnic minority with their own language, customs, religion, and unique way of living. They speak the Uighur language and practice shamanism as their religion. The main way of living is by herding the reindeers and hunting in the wild . They live in severe cold climatic conditions up to minus 31-50. The Tsaatans do not have their own written history and scholars believe that their traditional customs are at risk of being lost.",
+    nights: "9 nights",
+    days: "10 days",
+    meeting: "16.07.2024, 30.08.2024",
+    group: "3-8",
+    price: "3500$ - 2300$",
     hotel: "Tents, Tee-Pee, Ger camp, Hotel",
     transport: "Mongolian horse, Camel, 4x4 Mini van",
     paragraph: [
-      "Day 1: You will be picked up from the airport and driven to your hotel. After a brief rest, we will go out and explore the city of Ulaanbaatar. We will have lunch and you will have an opportunity to exchange your currency into Mongolian tugriks. You will visit the State Department Store and see the Genghis Square, visit the center of Buddhist religion, the Gandan monastery. You will also visit the newly opened Chinggis Khaan National Museum, and have a dinner aftewards. The evening will be at your disposal, so you can have a good rest before the start of the trip. (Spending a night in a hotel)  ",
-      "Day 2: We will have breakfast at the hotel and begin our trip. We will drive from capital city Ulaanbaatar towards West, South-West and arrive in Elsen Tasarkhai sand dunes. The sand dunes are unique, as they are stretching over 80 kilometers in the middle of fertile pasturelands. You can enjoy the beautiful scenery and specific flora of the area, walk through the dunes, ride Bactrian (two-humped) camels. You will spend a night in a gher camp.",
-      "Day 3: We will move towards the remains of Mongolia’s ancient capital Kharakhorum. You will be able to see Erdene Dzuu, the first Buddhist monastery in Mongolia, established by the Bogd Gegeen Zanabazar – the first supreme spiritual authority of Tibetan Buddhism in Mongolia. You will also see the Turtle rock, a must see landmark not far from the monastery. You will walk to the Tövkhön Monastery, one of Mongolia's oldest Buddhist monasteries, established in 17th century. Hiking through the rugged rocks and larch forest on a special trail will be a challenging yet interesting exercise as it will allow you to learn about unique religious traditions of Mongolians. (Spend a night in a tent)",
-      "Day 4: Overnight on the banks of the Tamir River in Arkhangai Province (Spend a night in a tent)",
-      "Day 5: We will travel towards Terkhiin Tsagaan (White) lake. We will go see the dormant volcano Khorgo and visit the pits at the national volcano park. You will spend the night in a gher camp.",
-      "Day 6: The trip continues to Khuvsgul province. We will spend the night in Shini Ider Sum, Khuvsgul Province. (Spend a night in a tent)",
-      "Day 7: Spend the night on the shores of Khuvsgul Lake. Khuvsgol Lake is the largest and deepest lake in Mongolia, and is the largest freshwater lake in Mongolia and on the of the biggest in the world. Khuvsgul Lake is considered to be one of the world’s seventeen ancient lakes. You will spend a night in a gher camp.",
-      "Day 8: Free Day: Hiking in the area. On this day, we can see from the inside how the nomadic Mongolian families live. We will explain to you the year-round lifestyle of a nomadic Mongolian family, the roles and responsibilities of family members. We will tell you about Mongolian gher and other interesting facts about lifestyle of Mongolians. You will spend the night in a gher camp. Reminder: Explain the structure of the Mongolian gher, what is located in the back, right, and left, and what is its purpose.",
-      "Day 9: On this day, we will go to Tsagaan Nuur Sum by going through the beautiful Darkhad Blue valley. This area is a large watershed with 248 small and large streams, 377 lakes and ponds, and 24 springs. Also, this area has a unique natural formation with sharp, pointed, triangular peaks and high rocky mountains. It is a must see destination of the foreign tourists, vising Mongolia. You will spend the night in a gher camp.Reminder: Mention to the tourists about the white horses of Darkhad",
-      "Day 10: Today we will leave our cars and ride horses to the taiga where the Tzaatangs live. (Spend a night in a tent)",
-      "Day 11: After spending the night in the desert taiga, we will wake up in the morning, drink tea and continue our trip. It is a country where the Tsaatans live far away from the civilization, still following the rules of their ancestors. On this day, we will go to their settlement and spend the night in a Tsaatan’s tent.",
-      "Day 12: Free day. On this day, we will get to know the livelihood of the Tzaatan family. The Tzaatans are the last reindeer-herding tribes left on earth. Only 44 families have preserved their traditional way of life. The Tsaatans ride the reindeers, make tea with reindeer’s milk, eat their meat, use the hides to make household items for nomadic lifestyle. (Spend a night in Tsaatan’s tent)",
-      "Day 13: Our next destination is Tsagaan Lake. Overnight on the road (overnight in a tent)",
-      "Day 14: After arriving at Tsagaan Nuur soum and resting for a while, You can go for a walk and visit the local shamans to ask your fortune and ask questions regarding your physical and mental issues. It is a custom to thank the shamans by tipping them a few tougriks. (Spend a night in a woden house)",
-      "Day 15: Departure to Murun, the capital of Khuvsgul province. (Overnight at the hotel)",
-      "Day 16: We will leave Khuvsgul province and spend the night in Bulgan province. On the way, we will spend the night in Buregkhangai Sum, Bulgan province (overnight in a tent).",
-      "Day 17: Today we will visit the famous Hustain Mountain National Park. The number of horses has reached more than 390 since the area was taken under special protection in 1993 in order to reintroduce wild horses (Przewalski's horses), which were extinct in nature. Deer, marmots, Mongolian antelopes and 213 species of birds inhabit this national park and their numbers are steadily increasing. Take a walk through the park territory and see rare wildlife such as the red-listed zebra. (stay in a tent)",
-      "Day 18: Return to Ulaanbaatar. After lunch you will visit the cashmere outlet store and other souvenir shops. In the evening we will see a concert of a folklore ensemble and enjoy a farewell dinner in a nice restaurant afterwards. You will spend a night in a hotel.",
-      "Day 19: We will drop you off at the airport or anywhere else within the city",
+      "Day 1: The travelers are picked up at the airport and driven to their hotels. After some rest, we will leave to explore the city. Lunch. Visit the currency exchange to change money for your immediate use. Visit Sukhbaatar Square and the center of religion in Mongolia, the Gandantegchinlen monastery. Then we will visit the Museum of Genghis Khan. Dinner in the evening and rest. (Overnight stay at Hotel)",
+      "Day 2: Breakfast at the Hotel. We will go to the airport and take a domestic flight to the city of Murun in Khuvsgul province. In the city of Murun transportation will be waiting for us. We’ll drive 100 kms on a paved road from Murun to Khatgal village, which leads to Khuvsgul Lake. Accommodation at a camping base on the shore of Lake Khuvsgul.",
+      "Day 3: On this day, we will travel to Tsagaan Nuur Sum across Darkhad valley, Khuvsgul province. In the north-west of Khuvsgul lake, there is a large area with beautiful sceneries, popularly known as the Blue Valley of Dharad. It is a large watershed with 248 small and large streams, 377 Lake and pond formations, and 24 mineral springs. This area is also a unique natural landscape of high rocky mountains with sharp, pointed, triangular peaks. It is a popular tourist hotspot for both foreigners and Mongolians (Spend the night in the wooden house)",
+      "Day 4: On this day we leave our vehicles and begin our horse ride to the taiga where the Tsaatan people live. The Tsaatans live far from the surrounding settlements to be closer to where the reindeers naturally graze. Depending on the location of the Tsaatan settlement, we may need to camp in a tent along the way. If their temporary settlement is not that far away, we will be able to visit them in the evening. (Spend the night in huts)",
+      "Day 5: Free day. On this day, we will learn about the Tsaatan culture and witness a day in the life of a Tsaatan family. In the remote northern part of Mongolia, the Khuvsgul taiga, the Tsaatans are the last reindeer herding tribe left on earth. Only 44 families have retained their traditional way of life. The daily life of the Tsaatans revolve around their reindeers from which they benefit in many ways such as using their milk for making dairy products as well as using their reindeers for transportation for both themselves and for carrying baggage. The hides of these animals are used for making the huts where the Tsaatan people live.  (Spend the night in huts)",
+      "Day 6: Continue our journey towards the White Lake soum (Spend the night in a wooden house)",
+      "Day 7: On this day, we will visit a local shaman and see how the locals receive help from the shaman, seeking remedy for physical and spiritual challenges in their lives. The shamans do not ask for money for their help, however, it is a custom that the visitors leave some gifts or money as they see fit.  (Spend the night in a wooden house)",
+      "Day 8: Return to the province center, the city of Murun. On the way, we will set up a camp in the surrounding beautiful nature. (Spend the night in tents)",
+      "Day 9: The flight from Murun will land in Ulaanbaatar and you will be driven back to the hotel. You can leave your luggage at the hotel and have lunch. We will then go to a world famous Mongolian cashmere textile store where you can buy cashmere products at a remarkable price. After shopping, we will attend a traditional art concert. After the concert we will have a farewell dinner in a nice restaurant. (Overnight stay at a Hotel)",
+      "Day 10: Airport. Flight out of Mongolia.",
+      "PS: There may be minor changes in the route due to the weather conditions and changes in the schedules of domestic flights."
     ],
-    images: [trip8_2, trip8_3, trip8_4, trip8_5, trip8_6, trip8_7, trip8_8],
+    images: [trip8_2, trip8_3],
   },
   {
     id: "trip9",
@@ -304,7 +306,7 @@ export const tripsEn = [
     desc2:
       "In the AM: You can experience Mongolian nomadic culture, lifestyle, five types of livestock, which form the basis of Mongolian traditional nomadic pastoral husbandry, national costumes, traditional dairy products and delicacies – all at once, by participating in the Mongolian Nomad program. The show will include: ",
     days: "1 day",
-    meeting: "11.06.2023, 24.06.2023, 02.07.2023, 29.07.2023, 06.08.2023",
+    meeting: "11.06.2024, 24.06.2024, 02.07.2024, 29.07.2024, 06.08.2024",
     group: "2-8",
     price: "250$ - 150$",
     // hotel: 'Zelte, Hotel',
@@ -338,7 +340,7 @@ export const tripsEn = [
     desc: "During this one-day tour, you will learn about traditional lifestyle, traditions and culture of Mongolian nomads. For many tourists it is difficult to plan a trip to Mongolia in early July and attend the Mongolian National Festival “Naadam”. Therefore, we will give you an opportunity to participate in a mini-Naadam. During the national Naadam festivities, the competitions and performances are held in different places. Whereas during the mini-Naadam, you can watch all of them at one location.desc2:",
     // nights: '10 Nächte',
     days: "1 day",
-    meeting: "27.06.2023, 04.07.2023, 25.07.2023, 03.08.2023, 14.08.2023, 28.08.2023, 06.09.2023 ",
+    meeting: "27.06.2024, 04.07.2024, 25.07.2024, 03.08.2024, 14.08.2024, 28.08.2024, 06.09.2024 ",
     group: "2-8",
     price: "300$ - 200$",
     // hotel: 'Zelte, Hotel',
@@ -380,5 +382,79 @@ export const tripsEn = [
       "16.30: Go to Ulaanbaatar city. We will take you to your hotel and we will end our one-day trip where you learned about the lifestyle and traditions of the nomadic Mongolian people.",
     ],
     images: [trip10_2, trip10_3, trip10_4, trip10_5],
+  },
+  {
+    id: "trip11",
+    name: "The land of the Eagle Hunters",
+    mainImg: trip11_Main,
+    desc: "Bayanulgii is the westernmost province of Mongolia, which rises 1301-4374 m above sea level in the mountains of the Mongolian Altai. 95.3% of the total area is elevated 1600 m above sea level), is surrounded by highlands with torrents and glaciers and has an area of 45.8 thousand square kilometers. In the West and North it borders with the Republic of Gorny Altai, Russian Federation and on the South-West with the Xinjiang Uygur Autonomous Region of China.",
+    desc2: "Our journey will continue among the great Altai Mountains, which are home to the world's most endangered medicinal plants, wild animals and birds.",
+    nights: "10 nights",
+    days: "11 days",
+    meeting: "16.07.2024, 30.08.2024",
+    group: "3-8",
+    price: "3800$ - 2300$",
+    hotel: "Tents, Tee-Pee, Ger camp, Hotel",
+    transport: "Mongolian horse, Camel, 4x4 Mini van",
+    paragraph: [
+      "Day 1: We will meet you at the airport. Together, we will go to the city and you will check-in in your hotel. After a little rest, we’ll explore the city. Then we will have a lunch. After lunch, we will go to the currency exchange office so you can exchange some money for our own use. We will take you to the Sukhbaatar Square and the center of Buddhist worship - Gandantegchinlen Monastery. Then we will visit the Genghis Khan Museum, and then have a dinner. (Overnight stay at the hotel)",
+      "Day 2: After breakfast at the hotel and we will go to the airport, where we will board a plane bound for the city of Ulgii, the center of Bayanulgii province. A car will be waiting for us at the Ulgii regional airport, from where we will drive towards the Altai Tavan-Bogd mountains. After driving about 90 km, we will arrive at the destination and stay overnight in a yurt of a hospitable Mongolian family. The location where we’ll spend our first night is very unique. It is located at the confluence of two rivers: Hovd and Tsagaan. You will be able to see how these two rivers of different colors flow together without mixing. Also, the lovers of fishing can fish in this river (Overnight stay in a wooden house, or in a Mongolian yurt)\n",
+      "Day 3: In the morning we'll have breakfast and hit the road. Today we are heading to Mount Shivet, located in the foothills of Altai Tavan Bogd, where we will get acquainted with the nomadic lifestyle of the Tyva family, ethnic minority inhabiting this area. We'll spend the night here. (Overnight in a yurt)",
+      "Along the way you will have the opportunity to see:",
+      "•  Rock petroglyphs on Mount Shivet",
+      "• Ancient stone statues",
+      "Day 4: In the morning we will have breakfast and continue our journey on horseback. The Altai Tavan Bogd Mountain national park administration has recently introduced new rules prohibiting driving cars up to the mountains. The horses are calm, accustomed to hiking of tourists, so do not worry even if you have little experience with horse riding. (Overnight stay in a tent)",
+      "Day 5: In the morning, after having a breakfast by the campfire, we will saddle our horses and camels, load our luggage on the animals and move on. (Overnight in a tent) On this day, we will concur a challenging crossing of the Khar salaa ridge, at Tahilt.",
+      "Day 6: In the morning, after having a breakfast by the campfire, we will saddle our horses and camels, load our luggage on the animals and set off. (Overnight in a tent)",
+      "Today we will see:",
+      "•  Beautiful Zurhen (Zurkh- Heart) a lake shaped like a heart.",
+      "•  Amazing Tahiltyn Gorge",
+      "Day 7: Today we will continue our journey by car. We will get acquainted with the nomadic lifestyle of a Kazakh family. We will visit the family of famous eagle hunters of the snowy foothills, where you will learn about the life and customs of the Kazakhs and have an interesting conversations with them. The tradition of eagle hunting originated among the nomads of Central Asia about 6000 years ago and has been preserved to this day. It was the Kazakhs who best preserved this tradition. (Overnight in a Kazakh yurt)",
+      "Day 8: After a breakfast, we will continue our journey. Today we will return to the yurts where we spent the second night of the trip. (Overnight stay in a wooden house, or in a Mongolian yurt)",
+      "Today we will see:",
+      "•  Baga turgeniy waterfall. This waterfall with a height of 15 meters, originates from the snow-capped mountains and descends from the Baga Turgeniy gorge in the middle of untouched wildlife.",
+      "•  Khoton and Khurgan lakes. Freshwater lakes Khoton and Khurgan are ideal natural landscapes surrounded by forested highlands. After enjoying a walk around the lake and a delicious dish prepared by the chef, it's nice to sit by the campfire and share unforgettable memories.",
+      "Day 9: Today is a day of rest.",
+      "This day you can:",
+      "•  Walk or ride a horse to the confluence of 2 rivers",
+      "•  Swim in the river and sunbathe on the warm coastal sand",
+      "•  Fishing",
+      "•  Walk to the Hovd River Canyon",
+      "•  Look through binoculars at the wild goats grazing up in the mountains.",
+      "Day 10: After breakfast we will go to the city of Ulgii. We will get acquainted with the city from a high hill, and also explore the local bazaar with traditional souvenirs and goods. Here you can find lots of interesting things, bags, hats, purses with patterns that embody the culture of the Kazakh people. Our 10–day trip to the beautiful part of Mongolia and the majestic Altai mountains inhabited by the eagle hunters will end with a flight from Ulgii to Ulanbaatar.",
+      "In Ulaanbaatar, you will check-in in a hotel. After lunch, we will go to a shopping mall where you will find several cashmere and textile brands of Mongolia. Then we will enjoy a concert of national folklore ensemble, after which we will have a farewell dinner. (Overnight at the hotel)",
+      "Day 11: Airport, departure",
+      "PS: There may be minor changes in the program due to the weather-related sudden changes in the timing of some regional flights."
+    ],
+    images: [trip11_2, trip11_3, trip11_4],
+  },
+  {
+    id: "trip12",
+    name: "Umnugobi-Khangai tour",
+    mainImg: trip12_Main,
+    desc: "In this tour, we will take you to Mongolia’s Gobi and Khangai regions with beautiful scenery and places names of which are mentioned in history. Gobi is the largest desert in Asia and the 5th largest in the world. Several urban settlements lie along the Silk Road lie in the Gobi. The legend is that the majestic Himalayas block the clouds coming to this region, thus with so little rainfall the Gobi was formed. The climate and topography of the Gobi are extreme and diverse, and rare fauna and flora are abundant.",
+    desc2: "In particular, the Umnugobi region is known for its finds of remains of ancient dinosaurs. The valley of the Orkhon River, which was declared by UNESCO as a World Heritage Site in 2004, flows through central Mongolia and is part of the Khangai region. We will take you to the Orkhon River Valley, where you can enjoy its unique natural landscape.",
+    nights: "11 nights",
+    days: "12 days",
+    meeting: "16.07.2024, 30.08.2024",
+    group: "2-8",
+    price: "3800$ - 2300$",
+    hotel: "Tents, Tee-Pee, Ger camp, Hotel",
+    transport: "Mongolian horse, Camel, 4x4 Mini van",
+    paragraph: [
+        "Day 1: The travelers are picked up at the airport and placed in hotels. After some rest, you will explore the city. After lunch we will go to the currency exchange office to change some money for your immediate use. The you’ll visit Mongolia's center of Budhist religion, the Gandantegchinlen monastery; Ulaanbaatar city's central point Sukhbaatar Square and Genghis Khan Museum. Dinner. (Overnight stay at Hotel)",
+        "Day 2: Early in the morning, we will go south and spend the night in a unique natural surroundings with rock formations called Granite Mountain Baga Gazryn Chuluu, located in Dundgovi province. (Spending night in a gher camp)",
+        "Day 3: after breakfast, we pass through Dalanzadgad, the center of Umnugobi province, and enjoy the Yolyn am gorge (valley of the Vultures), which is one of the unique landmarks of Gobi Gurvansaikhan, at the end of the Altai Mountains. From the mountain, you can enjoy the life of the largest bird of prey in Mongolia – vlulture and other birds. (Spending night in a gher camp)",
+        "Day 4: after breakfast, we will move towards the next destination of the tour which is the beautiful Khongor Sand dunes. From its base to its summit, the Sand dunes are varied from 10 to 195 meters high and extend for 185 km from West to East. The Sand dunes are located in Sevrei Soum, Umnugobi province, adjacent to the Sevrei mountain. It is a beautiful oasis where two rivers flow side by side, the Seruun Bulag (the Cool Spring) and the Hongor River, which merge with the Sand dunes. We will see the sand dunes of Khongor and ride the Bactrian (two-humped) or Mongolian camels. We will have dinner and spend the night here in a gher camp.",
+        "Day 5: After a breakfast we will continue our way. We will visit a place called Bayanzag. Americal paleontologist Roy Chapman Andrews, who came to the area in the 1920s leading a central Asian expedition organized by the American Museum of Natural History, called the sunset here “the Flaming Cliffs” for its bright orange color, a distinctive feature of the cliffs. The place called Ulaan Ereg (Red Bank) is famous for the discovery of the world's first dinosaur egg, and it is a valuable historical and cultural heritage that is protected by the state. Dinner at home and rest. (Spending night in a gher camp)",
+        "Day 6: After a breakfast, we will go Northwest and visit the Ong monastery, built between 1760 and 1810. There were 4 training Datsan monasteries within the Ong monastery, which offered courses in religious philosophy, secret mantra meditation, traditional medicine or Mamba, astrology, numerology and mathematics. The last Khambo Lama (senior monk) of the monastery, Luvsandorj, was arrested and became a victim of political repression in 1937. At that time, there were more than 1,000 monks and 28 monasteries. (Dinner and spending night in a gher camp)",
+        "Day 7: After breakfast, we will leave for the Orkhon valley. On the way, we will eat our packed lunch. We will go to Khujir soum and visit the local market. Camp in Orhon Valley. (Spending night in a gher camp)",
+        "Day 8: After breakfast and walk across the Orkhon River Valley that is inscribed by UNESCO in the World Heritage List. We will go through the lava formations left of the volcano and will see the beautiful waterfall Ulaan Tsutgalan (Red waterfall). After lunch, we will go to visit the monastery founded by the first Bogdo Zanabazar in Mongolia. The monastery will be at the top of the mountain, so we will leave our cars at the foot of the mountain and reach the destination on horseback. After the visit to the monastery, we will return to the camp, have dinner and rest. (Spending night in a gher camp)",
+        "Day 9: After a breakfast, we will go to see the petroglyphs, then visit the local herder family. You will see the lifestyle and traditions of the local people. The we will visit the Har-Khorin, the ancient capital of Mongolia. We will visit the Erdene Zuu monastery and see the ancient stone monument of the Turtle Rock. Dinner at the camp and rest. (Spending night in a gher camp)",
+        "Day 10: Today we visit the famous Khustai Mountain National Park. Since the area was protected by the state in 1993 in order to reintroduce wild (Przewalski) horses which had become extinct in the wild. Now the population of the wild horses has increased to more than 390. Deers, marmots, gazelles and 213 species of birds are also regularly increasing in population. You can walk in the National Park and see rare wildlife, such as Przewalski horses, which is listed in the Red Book. Dinner at the camp and rest. (Spending night in a gher camp)",
+        "Day 11: After breakfast we will go to UB. Check-in the hotel. You can go through the city for souvenirs and shopping. In the evening, you will enjoy a national concert, after which we will have a farewell dinner. (Overnight stay at the hotel)",
+        "Day 12: Breakfast. Airport.",
+    ],
+    images: [trip12_2, trip12_3, trip12_4, trip12_5],
   },
 ];

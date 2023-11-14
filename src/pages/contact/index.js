@@ -11,7 +11,15 @@ import Button from "@/components/Button";
 import Link from "next/link";
 import Footer from "@/components/Footer";
 import Head from "next/head";
+import bg from "../../../public/assets/bg/faqsBg.jpg";
 export default function ContactUs() {
+    const bgStyle = {
+        background: `url(${bg.src}) no-repeat center fixed`,
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        position: 'relative',
+    };
     const { t } = useTranslation('common');
     return (
         <>
@@ -20,7 +28,7 @@ export default function ContactUs() {
             </Head>
             <Navbar />
             <div className={`w-full h-[80px] relative bg-black  flex z-0 flex-col`}></div>
-            <div className={`flex w-full max-w-[100vw] relative flex z-0 flex-col`}>
+            <div className={`flex w-full max-w-[100vw] relative flex z-0 flex-col`} style={bgStyle}>
                 <section className={'w-full py-[100px] gap-24 flex flex-row items-center justify-center text-black relative z-1'}>
                     <div className={'w-[500px] flex flex-col items-end gap-[50px]'}>
                         <Image className={'w-[500px]'} src={contact} alt={""} />

@@ -201,7 +201,7 @@ export const tripsEn = [
     days: "7 day",
     meeting: "04.06.2024, 29.06.2024, 27.08.2024 ",
     group: "3-12",
-    price: "1500$ - 800$",
+    price: "1100$ - 800$",
     hotel: "Tents, Hotel",
     transport: "A van, mongolian horse",
     paragraph: [
@@ -225,8 +225,8 @@ export const tripsEn = [
     nights: "10 night",
     days: "11 day",
     meeting: "06.06.2024, 18.07.2024, 29.08.2024 ",
-    group: "2-12",
-    price: "2000$ - 1400$",
+    group: "3-12",
+    price: "1500$ - 1400$",
     hotel: "Tents, Hotel",
     transport: "A van, mongolian horse",
     paragraph: [
@@ -430,7 +430,7 @@ export const tripsEn = [
   },
   {
     id: "trip12",
-    name: "Umnugobi-Khangai tour",
+    name: "South Gobi- Khangai tour",
     mainImg: trip12_Main,
     desc: "In this tour, we will take you to Mongolia’s Gobi and Khangai regions with beautiful scenery and places names of which are mentioned in history. Gobi is the largest desert in Asia and the 5th largest in the world. Several urban settlements lie along the Silk Road lie in the Gobi. The legend is that the majestic Himalayas block the clouds coming to this region, thus with so little rainfall the Gobi was formed. The climate and topography of the Gobi are extreme and diverse, and rare fauna and flora are abundant.",
     desc2: "In particular, the Umnugobi region is known for its finds of remains of ancient dinosaurs. The valley of the Orkhon River, which was declared by UNESCO as a World Heritage Site in 2004, flows through central Mongolia and is part of the Khangai region. We will take you to the Orkhon River Valley, where you can enjoy its unique natural landscape.",

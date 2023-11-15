@@ -451,7 +451,7 @@ export const tripsGr = [
     days: "12 Tage ",
     meeting: "16.07.2024, 30.08.2024",
     group: "2-8",
-    price: "3800$ - 2300$",
+    price: "3200$ - 2300$",
     hotel: "Tents, Tee-Pee, Ger camp, Hotel",
     transport: "Mongolian horse, Camel, 4x4 Mini van",
     paragraph: [

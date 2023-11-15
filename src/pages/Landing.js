@@ -24,8 +24,16 @@ import Link from "next/link";
 import Footer from "@/components/Footer";
 import useTranslation from 'next-translate/useTranslation';
 import {useEffect} from "react";
+import bg from "../../public/assets/bg/faqsBg.jpg";
 
 export default function Landing() {
+    const bgStyle = {
+        background: `url(${landingBackground.src}) no-repeat center fixed`,
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        position: 'relative',
+    };
     useEffect(()=> {
         AOS.init();
         const handleRouteChange = () => {
@@ -39,10 +47,11 @@ export default function Landing() {
         };
     },[])
     const { t } = useTranslation('common');
+    console.log(landingBackground)
   return (
     <div className={`flex w-full max-w-[100vw] relative flex z-0 flex-col`}>
-        <section className={'w-full px-12 h-[600px] md:h-[700px] lg:h-[100vh] max-h-[100vh] overflow-y-hidden flex flex-col items-center justify-center text-white relative z-1'}>
-            <Image src={landingBackground} alt={""} className={'h-full  w-full max-w-full object-cover top-0 left-0 right-0 z-0 absolute'} />
+        <section className={'w-full px-12 h-[600px] md:h-[700px] lg:h-[100vh] max-h-[100vh] overflow-y-hidden flex flex-col items-center justify-center text-white relative z-1'} style={bgStyle}>
+            {/*<Image src={landingBackground.src} alt={""} className={'h-full  w-full max-w-full object-cover top-0 left-0 right-0 z-0 absolute'} />*/}
             <div className={'h-full w-full flex flex-col items-center justify-center text-white relative z-1'}>
                 <div className={'flex flex-col items-center gap-4 md:w-[400px] lg:w-[600px]'}>
                     <h2  data-aos="fade-up" className={'text-xl self-start font-medium'}>Open Road Travel</h2>

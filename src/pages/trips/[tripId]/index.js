@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import bg from "../../../../public/assets/bg/bg2.jpg";
-import mapBig from "../../../../public/assets/landing/mapBig.png";
 import {useRouter} from "next/router";
 import {tripsEn} from "@/utils";
 import {tripsGr} from "@/utils/german";
@@ -42,11 +41,19 @@ export default function TripSingle() {
             window.removeEventListener('routeChangeComplete', handleRouteChange);
         };
     },[])
+    const bgStyle = {
+        background: `url(${bg.src}) no-repeat center fixed`,
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'bottom',
+        backgroundSize: 'cover',
+        position: 'relative',
+        height: 400
+    };
     return (
         <div className={'w-full'}>
             <Navbar />
             <div className={`w-full overflow-y-hidden h-[400px] relative bg-black flex z-0 flex-col`}>
-                <Image className={'w-full h-[400px]'} style={{ objectFit: 'cover'}} src={bg} alt={''} />
+                <div className={'w-full h-[400px]'} style={bgStyle}></div>
             </div>
             <div className={`flex w-full max-w-[100vw] relative flex z-0 flex-col`}>
                 <section className={'w-full py-[80px] gap-24 flex flex-col lg:flex-row items-center lg:items-start lg:justify-center text-black relative z-1'}>
@@ -180,7 +187,7 @@ export default function TripSingle() {
                             <p>
                                 {t('priceTrip2.title')}:
                             </p>
-                            <ul className={'font-normal text-[14px] px-2'}>
+                            <ul className={'font-normal text-[16px] px-2'}>
                                 <li>
                                     - {t('priceTrip2.item1')};
                                 </li>

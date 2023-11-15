@@ -8,11 +8,19 @@ import useTranslation from "next-translate/useTranslation";
 
 export default function Info3() {
     const { t } = useTranslation('common');
+    const bgStyle = {
+        background: `url(${bg.src}) no-repeat center fixed`,
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'bottom',
+        backgroundSize: 'cover',
+        position: 'relative',
+        height: 400
+    };
     return (
         <div className={'w-full'}>
             <Navbar />
-            <div className={`w-full  relative bg-black  flex z-0 flex-col`}>
-                <Image className={'w-full object-cover h-[400px]'} src={bg} alt={''} />
+            <div className={`w-full overflow-y-hidden h-[400px] relative bg-black flex z-0 flex-col`}>
+                <div className={'w-full h-[400px]'} style={bgStyle}></div>
             </div>
             <div className={`flex w-full max-w-[100vw] relative z-0 flex-col`}>
                 <section className={'w-full py-[80px] gap-24 flex flex-row items-start justify-center text-black relative z-1'}>

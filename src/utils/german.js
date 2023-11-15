@@ -297,7 +297,7 @@ export const tripsGr = [
         "Tag 5: Freier Tag. An diesem Tag werden wir das Leben und das Leben der Familie Zaatan kennenlernen. Die in der Taiga Huvsgul, einem abgelegenen nördlichen Teil der Mongolei, lebenden Zaatans sind die letzten verbliebenen Rentierstämme der Welt. Nur 44 Familien haben ihre traditionelle Lebensweise bewahrt. Bereiten Sie Tee aus lokalen Kräutern mit Hirschmilch zu. Und sie werden sie im Winter als Fortbewegung verwenden. Zaatans profitieren bei all ihren täglichen Aktivitäten von Hirschen. (Übernachtung in der Wigwam)",
         "Tag 6: Wir fahren zurück in die Siedlung Zagaan Nuur. (Übernachtung im Haus)",
         "Tag 7: An diesem Tag können wir zu den berühmten lokalen Schaman gehen und unsere Körper- und Seelenprobleme teilen. Es gibt keinen Tarif, zahlen Sie genau so viel, wie Sie möchten. (Übernachtung im Haus)",
-        "Tag 8: Wir fahren nach Murun, der Hauptstadt der Provinz Huvsgul. (Übernachtung im Hotel) ",
+        "Tag 8: Wir fahren nach Murun, der Hauptstadt der Provinz Huvsgul. Unterwegs werden wir in freien zelten. (Übernachtung im Zelt)",
         "Tag 9: Abfahrt aus der Stadt Murun, Landung in Ulaanbaatar und Übernachtung im Hotel. Nach dem Verlassen des Gepäcks fahren wir zum Kaschmir-Textilgeschäft der berühmten mongolischen Marke Gobi. Sehen Sie sich ein Konzert der nationalen traditionellen Kunst an, gefolgt von einem Abschiedsessen. (Übernachtung im Hotel)",
         "Tag 10: Fahrt zum Flughafen. Abflug",
         "P.S: Aufgrund des Wetters und der Änderungen der Regionalflüge sind geringfügige Änderungen der Route möglich."
